@@ -8,7 +8,7 @@
 * "P_CarkPopUp_CloseButton" elementi varsa tikla
 
 # P_Arama alaninda <ara> kelimesi aratilir.
-* "P_AnaEkran_AramaAlani" elementini kontrol et
+* "P_AnaEkran_AramaAlani" elementinin var olduğu kontrol edilir
 * <ara> textini "P_AnaEkran_AramaAlani" elemente yaz
 *"1" saniye bekle
 * "P_AnaEkran_AramaButonu" elementini kontrol et
@@ -24,7 +24,7 @@
 * "P_AnaEkran_AramaSayfasi" elementi "' için arama sonuçları" değerini içeriyor mu kontrol et
 
 # P_Cerezler kapatilir
-* "P_AnaSayfa_CerezTamamButon" elementi varsa tikla
+* "P_AnaSayfa_CerezTamamButon" elementi varsa tıkla "1"
 
 # P_Ana Sayfa'ya don
 * "P_AnaSayfa_Karaca Logo" elementini kontrol et
@@ -32,13 +32,13 @@
 * "P_AnaSayfa_Karaca Logo" elementine tikla
 
 # P_Ana Sayfa_Sepetim Butonuna tikla
-* "P_AnaSayfa_Sepetim Butonu" elementini kontrol et
-* "P_AnaSayfa_Sepetim Butonu" elementine tikla
+* "P_AnaSayfa_Sepetim Butonu" elementinin var olduğu kontrol edilir
+* "P_AnaSayfa_Sepetim Butonu" elementine tıkla
 
 //Kategori Başlıkları
 # P_Ana Sayfa Sofra ana basligina tiklanir.
-*"P_AnaSayfa_SofraAnaBasligi" elementini kontrol et
-*"P_AnaSayfa_SofraAnaBasligi" elementine tikla
+*"P_AnaSayfa_SofraAnaBasligi" elementinin var olduğu kontrol edilir
+*"P_AnaSayfa_SofraAnaBasligi" elementine tıkla
 
 #P_Ana Sayfa Mutfak ana basligina tiklanir.
 *"P_AnaSayfa_MutfakAnaBasligi" elementini kontrol et

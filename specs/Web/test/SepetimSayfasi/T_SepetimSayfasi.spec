@@ -3,6 +3,7 @@ Sepetim Sayfası
 
 deneme
 ---
+tags:deneme
 * "https://tuzbiberstandup.com/etkinlik/acimasiz-mikrofon/" adresine git
 * "3" saniye bekle
 

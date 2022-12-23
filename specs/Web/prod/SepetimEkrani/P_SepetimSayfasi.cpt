@@ -15,8 +15,8 @@
 * "P_SepetimSayfasi_UrunuSepettenKaldir" elementine tikla
 
 # P_Sepetim Sayfası Sepetin boş olduğu kontrol edilir.
-* "P_SepetimSayfasi_SepetBosYazi" elementini kontrol et
-* "P_SepetimSayfasi_SepetBosYazi" elementi "Sepetiniz Şimdilik Boş" değerini içeriyor mu kontrol et
+* "P_SepetimSayfasi_SepetBosYazi" elementinin var olduğu kontrol edilir
+* "P_SepetimSayfasi_SepetBosYazi" elementine "Sepetiniz Şimdilik Boş" değerini yaz
 
 # P_Sepetim Sayfası_Sepeti Bosalt PopUp_Sepeti Bosalt butonuna tıklanır.
 * "P_Sepetim Sayfasi_Sepeti Bosalt PopUp_Sepeti Bosalt butonu" elementi varsa tikla
