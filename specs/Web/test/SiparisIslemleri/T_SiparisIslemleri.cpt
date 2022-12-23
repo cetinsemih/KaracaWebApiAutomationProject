@@ -1,0 +1,199 @@
+# T_urun_detay 48413644(100TL alti) siparis nolu urunun sayfasina gidilir.
+* "https://yeni.krc.com.tr/account/order/info/48413644" adresine git
+* "P_SiparisDetay_SiparisNo" elementini kontrol et
+* Check if element "P_SiparisDetay_SiparisNo" contains text "48413644"
+
+# T_urun_detay 48413682(100TL ustu) siparis nolu urunun sayfasina gidilir.
+* "https://yeni.krc.com.tr/account/order/info/48413682" adresine git
+* "P_SiparisDetay_SiparisNo" elementini kontrol et
+* Check if element "P_SiparisDetay_SiparisNo" contains text "48413682"
+
+
+# T_urun_detay 'Kolay Iade' butonu kontrol edilir.
+* Sayfa uzerinde "UrunDetaySayfasi_KolayIadeButonu" objesi goruntulenene kadar bekle
+* "2" saniye bekle
+* "UrunDetaySayfasi_KolayIadeButonu" elementini kontrol et
+
+
+# T_urun_detay 'Kolay Iade' butonuna tiklanir.
+* T_urun_detay 'Kolay Iade' butonu kontrol edilir.
+* "UrunDetaySayfasi_KolayIadeButonu" elementine tikla
+* Sayfa uzerinde "UrunDetaySayfasi_KolayIadePopup_Header" objesi goruntulenene kadar bekle
+* "UrunDetaySayfasi_KolayIadePopup_Header" elementini kontrol et
+* Check if element "UrunDetaySayfasi_KolayIadePopup_Header" contains text "Kolay İade"
+
+# T_urun_detay Kolay Iade popupinda 'BURADAN' linkine tiklanir.
+* Sayfa uzerinde "UrunDetaySayfasi_KolayIadePopup_BURADANlink" objesi goruntulenene kadar bekle
+* "UrunDetaySayfasi_KolayIadePopup_BURADANlink" elementini kontrol et
+* "UrunDetaySayfasi_KolayIadePopup_BURADANlink" elementine tikla
+* Şuanki URL "https://yeni.krc.com.tr/stores" değerini içeriyor mu kontrol et
+
+# T_urun_detay Kolay Iade popupinda 'Magazadan Iade' linkine tiklanir.
+* Sayfa uzerinde "UrunDetaySayfasi_KolayIadePopup_MagazadanIadeLink" objesi goruntulenene kadar bekle
+* "UrunDetaySayfasi_KolayIadePopup_MagazadanIadeLink" elementini kontrol et
+* "UrunDetaySayfasi_KolayIadePopup_MagazadanIadeLink" elementine tikla
+* Şuanki URL "https://yeni.krc.com.tr/magazadan-iade-lp" değerini içeriyor mu kontrol et
+
+# T_urun_detay Kolay Iade popupinda 'Internetten Iade' butonuna tiklanir.
+* Sayfa uzerinde "UrunDetaySayfasi_KolayIadePopup_InternettenIadeButton" objesi goruntulenene kadar bekle
+* "UrunDetaySayfasi_KolayIadePopup_InternettenIadeButton" elementini kontrol et
+* "UrunDetaySayfasi_KolayIadePopup_InternettenIadeButton" elementine tikla
+* Sayfa uzerinde "UrunDetaySayfasi_IadeYontemiPopup_Header" objesi goruntulenene kadar bekle
+* "UrunDetaySayfasi_IadeYontemiPopup_Header" elementini kontrol et
+* Check if element "UrunDetaySayfasi_IadeYontemiPopup_Header" contains text "İade Yöntemi"
+
+# T_urun_detay Iade Yontemi popupinda 'Urun Adedi' dropdownindan secim yapilir.
+* Sayfa uzerinde "UrunDetaySayfasi_IadeYontemiPopup_UrunAdediDropdown" objesi goruntulenene kadar bekle
+* "UrunDetaySayfasi_IadeYontemiPopup_UrunAdediDropdown" elementini kontrol et
+* "UrunDetaySayfasi_IadeYontemiPopup_UrunAdediDropdown" elementine tikla
+* "UrunDetaySayfasi_IadeYontemiPopup_UrunAdediDropdown_Secenek" li elementlerden "1". olana tikla ve stringini listeye kaydet
+
+# T_urun_detay Iade Yontemi popupinda 'Iade Nedeni' dropdownindan <secenek>. siradaki secenek secilir.
+* Sayfa uzerinde "UrunDetaySayfasi_IadeYontemiPopup_IadeNedeniDropdown" objesi goruntulenene kadar bekle
+* "UrunDetaySayfasi_IadeYontemiPopup_IadeNedeniDropdown" elementini kontrol et
+* "UrunDetaySayfasi_IadeYontemiPopup_IadeNedeniDropdown" elementine tikla
+* "2" saniye bekle
+* "UrunDetaySayfasi_IadeYontemiPopup_IadeNedeniDropdown_Secenek" li elementlerden <secenek>. olana tikla ve stringini listeye kaydet
+
+# T_urun_detay Iade Yontemi popupinda 'Iade Aciklamasi' alanina <aciklama> girilir.
+* Sayfa uzerinde "UrunDetaySayfasi_IadeYontemiPopup_IadeAciklamasiTextArea" objesi goruntulenene kadar bekle
+* "UrunDetaySayfasi_IadeYontemiPopup_IadeAciklamasiTextArea" elementini kontrol et
+* "UrunDetaySayfasi_IadeYontemiPopup_IadeAciklamasiTextArea" elementine tikla
+* <aciklama> textini "UrunDetaySayfasi_IadeYontemiPopup_IadeAciklamasiTextArea" elemente yaz
+
+# T_urun_detay Iade Yontemi popupinda 'Iade Olustur' butonuna tiklanir.
+* Sayfa uzerinde "UrunDetaySayfasi_IadeYontemiPopup_IadeOlusturButton" objesi goruntulenene kadar bekle
+* "UrunDetaySayfasi_IadeYontemiPopup_IadeOlusturButton" elementini kontrol et
+* "UrunDetaySayfasi_IadeYontemiPopup_IadeOlusturButton" elementine tikla
+
+# T_urun_detay Iade Yontemi popupinda <uyariMesaji> uyarisinin oldugu kontrol edilir.
+* Sayfa uzerinde "UrunDetaySayfasi_IadeYontemiPopup_UyariMesaji" objesi goruntulenene kadar bekle
+* "UrunDetaySayfasi_IadeYontemiPopup_UyariMesaji" elementini kontrol et
+* Check if element "UrunDetaySayfasi_IadeYontemiPopup_UyariMesaji" contains text <uyariMesaji>
+
+# T_urun_detay 'IADE BASARILI' popupinin acildigi kontrol edilir.
+* T_urun_detay 'IADE BASARILI' popupinda headerin altindaki yazi kontrol edilir.
+
+# T_urun_detay 'IADE BASARILI' popupinda headerin altindaki yazi kontrol edilir.
+* "4" saniye bekle
+* Sayfa uzerinde "UrunDetaySayfasi_IadeBasariliPopup_IadeBasariileYazi" objesi goruntulenene kadar bekle
+* "UrunDetaySayfasi_IadeBasariliPopup_IadeBasariileYazi" elementini kontrol et
+* "UrunDetaySayfasi_IadeBasariliPopup_IadeBasariileYazi" elementi "İade başarıyla oluşturuldu" değerini içeriyor mu kontrol et
+
+# T_urun_detay 'IADE BASARILI' popupinda iade kodu icerigi kontrol edilir.
+* Sayfa uzerinde "UrunDetaySayfasi_IadeBasariliPopup_IadeKodu" objesi goruntulenene kadar bekle
+* "UrunDetaySayfasi_IadeBasariliPopup_IadeKodu" elementini kontrol et
+//İade kodu sürekli değişebiliyor. Bu otomasyonda içeriğini son 3 hane hariç kontrol edebiliyoruz.
+* "UrunDetaySayfasi_IadeBasariliPopup_IadeKodu" elementi "İade Kodu" değerini içeriyor mu kontrol et
+
+# T_urun_detay 'IADE BASARILI' popupinda alici kodu icerigi kontrol edilir.
+* Sayfa uzerinde "UrunDetaySayfasi_IadeBasariliPopup_AliciKodu" objesi goruntulenene kadar bekle
+* "UrunDetaySayfasi_IadeBasariliPopup_AliciKodu" elementini kontrol et
+//Yakın zamanlarda farklı ürünlerin iadeleri yapıldıktan sonra alıcı kodları aynı oluyor.
+//Ama belli bir süre geçtikten sonra bu kod değişeceğinden bu tesT - stabil çalışmaz.
+* "UrunDetaySayfasi_IadeBasariliPopup_AliciKodu" elementi "Alıcı Kodu" değerini içeriyor mu kontrol et
+
+# T_urun_detay 'IADE BASARILI' popupi kapatilir.
+* Sayfa uzerinde "UrunDetaySayfasi_IadeBasariliPopup_CloseButton" objesi goruntulenene kadar bekle
+* "UrunDetaySayfasi_IadeBasariliPopup_CloseButton" elementini kontrol et
+* "UrunDetaySayfasi_IadeBasariliPopup_CloseButton" elementine tikla
+
+# T_urun_detay 'Para Iadesi Talebi Olusturuldu' yazisi kontrol edilir.
+* Sayfa uzerinde "UrunDetaySayfasi_ParaIadesiTalebiOlusturulduYazisi" objesi goruntulenene kadar bekle
+* "UrunDetaySayfasi_ParaIadesiTalebiOlusturulduYazisi" elementini kontrol et
+* "UrunDetaySayfasi_ParaIadesiTalebiOlusturulduYazisi" elementi "Para İadesi Talebi Oluşturuldu" değerini içeriyor mu kontrol et
+
+# T_urun_detay 'Iade Kodu' alani kontrol edilir.
+* "UrunDetaySayfasi_IadeKodu" elementini kontrol et
+* "UrunDetaySayfasi_IadeKodu" elementi "İade Kodu" değerini içeriyor mu kontrol et
+
+# T_urun_detay 'Alici Kodu' alani kontrol edilir.
+* "UrunDetaySayfasi_AliciKodu" elementini kontrol et
+* "UrunDetaySayfasi_AliciKodu" elementi "Alıcı Kodu" değerini içeriyor mu kontrol et
+
+# T_urun_detay 'Iade Talebiniz Alindi' yazisi kontrol edilir.
+* "UrunDetaySayfasi_IadeTalebinizAlindiYazisi" elementini kontrol et
+* "UrunDetaySayfasi_IadeTalebinizAlindiYazisi" elementi "İade Talebiniz Alındı" değerini içeriyor mu kontrol et
+
+# T_urun_detay Iade Yontemi popupinin acildigi gorulur.
+* Sayfa uzerinde "UrunDetaySayfasi_IadeYontemiPopup_Header_100tlAlti" objesi goruntulenene kadar bekle
+* "UrunDetaySayfasi_IadeYontemiPopup_Header_100tlAlti" elementini kontrol et
+* "UrunDetaySayfasi_IadeYontemiPopup_Header_100tlAlti" elementi "İade Yöntemi" değerini içeriyor mu kontrol et
+* Sayfa uzerinde "UrunDetaySayfasi_IadeYontemiPopup_UrunSizdeKalsinYazisi_100tlAlti" objesi goruntulenene kadar bekle
+* "UrunDetaySayfasi_IadeYontemiPopup_UrunSizdeKalsinYazisi_100tlAlti" elementini kontrol et
+* "UrunDetaySayfasi_IadeYontemiPopup_UrunSizdeKalsinYazisi_100tlAlti" elementi "Ürün sizde kalsın!" değerini içeriyor mu kontrol et
+
+# T_urun_detay Iade Yontemi popupinda 'HEMEN IADE' butonuna tiklanir.
+* Sayfa uzerinde "UrunDetaySayfasi_IadeYontemiPopup_HemenIadeButonu_100tlAlti" objesi goruntulenene kadar bekle
+* "UrunDetaySayfasi_IadeYontemiPopup_HemenIadeButonu_100tlAlti" elementini kontrol et
+* "UrunDetaySayfasi_IadeYontemiPopup_HemenIadeButonu_100tlAlti" elementine tikla
+
+# T_urun_detay Iade basarili popupinin acildigi gorulur.
+* Sayfa uzerinde "UrunDetaySayfasi_IadebasariliPopup_Header_100tlAlti" objesi goruntulenene kadar bekle
+* "UrunDetaySayfasi_IadebasariliPopup_Header_100tlAlti" elementini kontrol et
+* "UrunDetaySayfasi_IadebasariliPopup_Header_100tlAlti" elementi "İade başarılı" değerini içeriyor mu kontrol et
+* Sayfa uzerinde "UrunDetaySayfasi_IadebasariliPopup_HediyeCekiYazi_100tlAlti" objesi goruntulenene kadar bekle
+* "UrunDetaySayfasi_IadebasariliPopup_HediyeCekiYazi_100tlAlti" elementini kontrol et
+* "UrunDetaySayfasi_IadebasariliPopup_HediyeCekiYazi_100tlAlti" elementi "Hediye Çekiniz Oluşturuldu" değerini içeriyor mu kontrol et
+
+# T_urun_detay Iade basarili popupinda 'Kapat' butonuna tiklanir.
+* Sayfa uzerinde "UrunDetaySayfasi_IadebasariliPopup_KapatButonu_100tlAlti" objesi goruntulenene kadar bekle
+* "UrunDetaySayfasi_IadebasariliPopup_KapatButonu_100tlAlti" elementini kontrol et
+* "UrunDetaySayfasi_IadebasariliPopup_KapatButonu_100tlAlti" elementine tikla
+
+# T_urun_detay Iade basarili popupinda 'Carpi' butonuna tiklanir.
+* Sayfa uzerinde "UrunDetaySayfasi_IadebasariliPopup_CarpiButonu_100tlAlti" objesi goruntulenene kadar bekle
+* "UrunDetaySayfasi_IadebasariliPopup_CarpiButonu_100tlAlti" elementini kontrol et
+* "UrunDetaySayfasi_IadebasariliPopup_CarpiButonu_100tlAlti" elementine tikla
+
+# T_urun_detay 'Iade Yöntemi' popupinda 'Karta iade et' linkine tiklanir.
+* Sayfa uzerinde "UrunDetaySayfasi_IadeYontemiPopup_KartaIadeetLinki_100tlAlti" objesi goruntulenene kadar bekle
+* "UrunDetaySayfasi_IadeYontemiPopup_KartaIadeetLinki_100tlAlti" elementini kontrol et
+* "UrunDetaySayfasi_IadeYontemiPopup_KartaIadeetLinki_100tlAlti" elementine tikla
+
+# T_urun_detay 'HEDIYE CEKINI IPTAL ET' butonu ve 'Hediye Cekiniz Olusturuldu' yazisi gorulur.
+* Sayfa uzerinde "UrunDetaySayfasi_HediyeCekiniIptalEtButonu_100tlAlti" objesi goruntulenene kadar bekle
+* "2" saniye bekle
+* "UrunDetaySayfasi_HediyeCekiniIptalEtButonu_100tlAlti" elementini kontrol et
+* Sayfa uzerinde "UrunDetaySayfasi_HediyeCekinizOlusturulduYazisi_100tlAlti" objesi goruntulenene kadar bekle
+* "UrunDetaySayfasi_HediyeCekinizOlusturulduYazisi_100tlAlti" elementini kontrol et
+* "UrunDetaySayfasi_HediyeCekinizOlusturulduYazisi_100tlAlti" elementi "Hediye Çekiniz Oluşturuldu" değerini içeriyor mu kontrol et
+
+# T_urun_detay 'HEDIYE CEKINI IPTAL ET' butonuna tiklanir.
+* "UrunDetaySayfasi_CerezKapatButton" elementini kontrol et
+* "UrunDetaySayfasi_CerezKapatButton" elementine tikla
+* Sayfa uzerinde "UrunDetaySayfasi_AdresBilgileri" objesi goruntulenene kadar bekle
+* "UrunDetaySayfasi_AdresBilgileri" elementini kontrol et
+* "UrunDetaySayfasi_HediyeCekiniIptalEtButonu_100tlAlti" elementine tikla
+* "4" saniye bekle
+* Enter'e Bas
+* "3" saniye bekle
+
+# T_urun_detay 'Hediye Cekiniz Olusturuldu' yazisinin olmadigi kontrol edilir.
+* "3" saniye bekle
+* "UrunDetaySayfasi_HediyeCekinizOlusturulduYazisi_100tlAlti" elementi yokmu kontrol et
+
+# T_urun_detay 'IADE BASARILI' popupinin acildigi kontrol edilir(100TL alti urun icin).
+* Sayfa uzerinde "UrunDetaySayfasi_IADEBASARILIPopup_HeaderAltindakiYazi_100tlAlti" objesi goruntulenene kadar bekle
+* "3" saniye bekle
+* "UrunDetaySayfasi_IADEBASARILIPopup_HeaderAltindakiYazi_100tlAlti" elementini kontrol et
+* "UrunDetaySayfasi_IADEBASARILIPopup_HeaderAltindakiYazi_100tlAlti" elementi "İade başarıyla oluşturuldu" değerini içeriyor mu kontrol et
+
+# T_urun_detay 'IADE TALEBINI IPTAL ET' butonuna tiklanir.
+* "UrunDetaySayfasi_CerezKapatButton" elementini kontrol et
+* "UrunDetaySayfasi_CerezKapatButton" elementine tikla
+* Sayfa uzerinde "UrunDetaySayfasi_IadeTalebinizAlindiYazisi" objesi goruntulenene kadar bekle
+* "3" saniye bekle
+* Sayfa uzerinde "UrunDetaySayfasi_IadeTalebiIptalButton" objesi goruntulenene kadar bekle
+* "UrunDetaySayfasi_IadeTalebiIptalButton" elementini kontrol et
+* "UrunDetaySayfasi_IadeTalebiIptalButton" elementine tikla
+* "2" saniye bekle
+* Enter'e Bas
+* "2" saniye bekle
+
+# T_urun_detay 'IADE TALEBINI IPTAL ET' butonu varsa tikla.
+* "UrunDetaySayfasi_CerezKapatButton" elementi varsa tikla
+* Sayfa uzerinde "UrunDetaySayfasi_AdresBilgileri" objesi goruntulenene kadar bekle
+* "2" saniye bekle
+* "UrunDetaySayfasi_IadeTalebiIptalButton" elementi varsa tikla
+* Enter'e Bas

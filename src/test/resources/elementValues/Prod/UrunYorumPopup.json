@@ -1,0 +1,47 @@
+[
+  {
+    "key": "UrunYorumPopUp_PopUpHeader",
+    "value": "div[id='modalReview']>div>div>div[class=\"modal-header\"]>h4[class=\"modal-title\"]",
+    "type": "css"
+  },
+  {
+    "key": "UrunYorumPopUp_UrunIsmi",
+    "value": "#modalReview > div > div > div.modal-body > div.product-list > div > div.text > span",
+    "type": "css"
+  },
+  {
+    "key": "UrunYorumPopUp_YorumTextArea",
+    "value": "div[id=\"modalReview\"]>div>div>div>div>div[class=\"form-group\"]>textarea",
+    "type": "css"
+  },
+  {
+    "key": "UrunYorumPopUp_DosyaSecButton",
+    "value": "//*[text()='Dosya Seç']",
+    "type": "xpath"
+  },
+  {
+    "key": "UrunYorumPopUp_IsmiGizleCheckbox",
+    "value": "div>label[for=\"nameShow\"]>div",
+    "type": "css"
+  },
+  {
+    "key": "UrunYorumPopUp_YorumYapButton",
+    "value": "//*[@id=\"modalReview\"]/div/div/div[2]/div[2]/div[4]/button",
+    "type": "xpath"
+  },
+  {
+    "key": "UrunYorumPopUp_DerecelendirmeYildizlar",
+    "value": "div[id=\"review-popup-stars\"]>span",
+    "type": "css"
+  },
+  {
+    "key": "UrunYorumPopUp_CloseButton",
+    "value": "div[id=\"modalReview\"]>div>div>div>button[class=\"close modalCloseCustom\"]",
+    "type": "css"
+  },
+  {
+    "key": "UrunYorumPopUp_UyariMesaji",
+    "value": "div[class=\"krc-alert mb-3\"]>div[class=\"text\"]",
+    "type": "css"
+  }
+]

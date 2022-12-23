@@ -1,0 +1,187 @@
+[
+  {
+    "key": "P_AnaEkran_AramaSayfasi",
+    "value": "h1[class='inherit']",
+    "type": "css"
+  },
+  {
+    "key": "P_AnaEkran_AramaAlani",
+    "value": "form[id='mobile-search']>input",
+    "type": "css"
+  },
+  {
+    "key": "P_AnaEkran_AramaButonu",
+    "value": "div[class=\"searchWrap\"]>a",
+    "type": "css"
+  },
+  {
+    "key": "P_AnaEkran_HesabimButonu",
+    "value": "img[alt='Hesabım']",
+    "type": "css"
+  },
+  {
+    "key": "P_AnaEkran_HesapAdi",
+    "value": "div[id='account_header']>div[class='item myAccount']>span",
+    "type": "css"
+  },
+  {
+    "key": "P_NavbarHaliLinki",
+    "value": "div[class='container']>nav>a[href='/halilar']",
+    "type": "css"
+  },
+  {
+    "key": "P_CarkPopUp_CloseButton",
+    "value": "div[id=\"ins-web-wheel-of-fortune-adaptive\"] div[id*=\"wrap-close-button\"]",
+    "type": "css"
+  },
+  {
+    "key": "P_AnaSayfa_CerezTamamButon",
+    "value": "//*[@class='acceptcookies']",
+    "type": "xpath"
+  },
+  {
+    "key": "P_AnaSayfa_Karaca Logo",
+    "value": "div[class=\"logo\"] img",
+    "type": "css"
+  }
+,
+  {
+    "key": "P_AnaSayfa_Sepetim Butonu",
+    "value": "//div[@class=\"myHeaderCart\"]",
+    "type": "xpath"
+  }
+,
+  {
+    "key": "P_AnaSayfa_KaracaLove",
+    "value": "//a[@href=\"/account/wallet\"]/span",
+    "type": "xpath"
+  }
+,
+  {
+    "key": "P_AnaSayfa_Favorilerim",
+    "value": "//a[@href=\"/account/wishlist\"]/span",
+    "type": "xpath"
+  },
+  {
+    "key": "P_AnaSayfa_Taleplerim",
+    "value": "//a[@href=\"/account/aftersales\"]/span",
+    "type": "xpath"
+  }
+,
+  {
+    "key": "P_AnaSayfa_IndirimKuponlarim",
+    "value": "//a[@href=\"/account/coupon\"]/span",
+    "type": "xpath"
+  }
+,
+  {
+    "key": "P_AnaSayfa_NavBar",
+    "value": "header>div[class=\"container\"]>nav>a",
+    "type": "css"
+  }
+,
+  {
+    "key": "P_AnaSayfa_HesabimMenuElements",
+    "value": "div[class=\"accountMenu\"]>ul>li",
+    "type": "css"
+  }
+,
+  {
+    "key": "P_AnaSayfa_HesabimMenuElements_HesapAdi",
+    "value": "#account_header > div > div[class='accountMenu'] > span[class='headline']",
+    "type": "css"
+  }
+,
+  {
+    "key": "P_AnaSayfa_SofraAnaBasligi",
+    "value": "nav>a[data-id='188']",
+    "type": "css"
+  }
+,
+  {
+    "key": "P_AnaSayfa_MutfakAnaBasligi",
+    "value": "nav>a[data-id='189']",
+    "type": "css"
+  }
+,
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "key": "P_AnaSayfa_Hesabim_GirisYap",
+    "value": "a[href=\"/account/login\"]",
+    "type": "css"
+  }
+,
+  {
+    "key": "P_AnaSayfa_Hesabim_UyeOl",
+    "value": "a[href=\"/account/login?register\"]",
+    "type": "css"
+  }
+,
+  {
+    "key": "P_AnaSayfa_Hesabim_Siparislerim",
+    "value": "a[href=\"/account/order\"]",
+    "type": "css"
+  }
+,
+  {
+    "key": "P_AnaSayfa_Hesabim_Listelerim",
+    "value": "a[href=\"/account/shopping-list\"]",
+    "type": "css"
+  }
+,
+  {
+    "key": "P_AnaSayfa_Hesabim_Adreslerim",
+    "value": "a[href=\"/account/address\"]",
+    "type": "css"
+  }
+,
+  {
+    "key": "P_AnaSayfa_Hesabim_Taleplerim",
+    "value": "a[href=\"/account/aftersales\"]",
+    "type": "css"
+  }
+,
+  {
+    "key": "P_AnaSayfa_Hesabim_IndirimKuponlarim",
+    "value": "a[href=\"/account/coupon\"]",
+    "type": "css"
+  }
+,
+  {
+    "key": "P_AnaSayfa_Hesabim_Favorilerim",
+    "value": "div>ul>li>a[href=\"/account/wishlist\"]",
+    "type": "css"
+  }
+,
+  {
+    "key": "P_AnaSayfa_Hesabim_CikisYap",
+    "value": "a[href=\"/account/logout\"]",
+    "type": "css"
+  }
+,
+  {
+    "key": "P_AnaSayfa_Hesabim_SifreYenileme",
+    "value": "a[href=\"/account/password\"]",
+    "type": "css"
+  }
+,
+  {
+    "key": "P_AnaSayfa_Hesabim_YedekParcaTalepFormu",
+    "value": "a[href=\"/account/kirik-parca-formu\"]",
+    "type": "css"
+  }
+
+
+]
+
+

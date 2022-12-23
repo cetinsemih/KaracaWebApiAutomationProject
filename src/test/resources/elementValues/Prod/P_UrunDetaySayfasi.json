@@ -1,0 +1,241 @@
+[
+  {
+    "key": "P_UrunDetaySayfasi_SepeteEkleButonu",
+    "value": "a[id=\"addToCart\"]",
+    "type": "css"
+  },
+  {
+    "key": "P_UrunDetaySayfasi_SepeteGit",
+    "value": "#multipleAddCart button[data-href-link=\"/checkout/cart\"]",
+    "type": "css"
+  }
+,
+  {
+    "key": "P_UrunDetaySayfasi_AlisveriseDevamEt",
+    "value": "#multipleAddCart button[class*=\"keepShopping\"]",
+    "type": "css"
+  }
+,
+  {
+    "key": "P_SiparisDetay_SiparisNo",
+    "value": "div.orderDetail > div.order-header.mb-3 > div:nth-child(6) > span.text",
+    "type": "css"
+  },
+  {
+    "key": "P_SiparisDetay_UrunumuServiseGonderLinki",
+    "value": "div[class=\"extras\"]>button[data-toggle='tooltip']",
+    "type": "css"
+  },
+  {
+    "key": "SiparisDetay_UrunYorumLink",
+    "value": "span>img[src=\"/catalog/view/assets/images/degerlendirme.svg\"]",
+    "type": "css"
+  },
+  {
+    "key": "P_UrunIncTdenOnce_OkudumAnladimButonu",
+    "value": "div.text-center>div[id=\"agree-btn\"]",
+    "type": "css"
+  },
+  {
+    "key": "UrunDetaySayfasi_KolayIadeButonu",
+    "value": "div[class=\"buttons mt-0\"]>a",
+    "type": "css"
+  },
+  {
+    "key": "UrunDetaySayfasi_KolayIadePopup_Header",
+    "value": "div[id='modalReturnSummary']>div>div>div>h4[class=\"modal-title\"]",
+    "type": "css"
+  },
+  {
+    "key": "UrunDetaySayfasi_KolayIadePopup_BURADANlink",
+    "value": "span>a[href=\"/stores\"]",
+    "type": "css"
+  },
+  {
+    "key": "UrunDetaySayfasi_KolayIadePopup_MagazadanIadeLink",
+    "value": "span>a[href=\"/magazadan-iade-lp\"]",
+    "type": "css"
+  },
+  {
+    "key": "UrunDetaySayfasi_KolayIadePopup_InternettenIadeButton",
+    "value": "div[class=\"modal-content\"]>div>a[data-target=\"#modalReturnSummary\"]",
+    "type": "css"
+  },
+  {
+    "key": "UrunDetaySayfasi_IadeYontemiPopup_Header",
+    "value": "#modalReturn>div>div>div>h4[class=\"modal-title\"]",
+    "type": "css"
+  },
+  {
+    "key": "UrunDetaySayfasi_IadeYontemiPopup_UrunAdediDropdown",
+    "value": "div[class=\"qty\"]>select[class=\"krc-select\"]",
+    "type": "css"
+  },
+  {
+    "key": "UrunDetaySayfasi_IadeYontemiPopup_UrunAdediDropdown_Secenek",
+    "value": "div[class=\"qty\"]>select[class=\"krc-select\"]>option",
+    "type": "css"
+  },
+  {
+    "key": "UrunDetaySayfasi_IadeYontemiPopup_IadeNedeniDropdown",
+    "value": "div[class=\"form-group\"]>select[class=\"krc-select\"]",
+    "type": "css"
+  },
+  {
+    "key": "UrunDetaySayfasi_IadeYontemiPopup_IadeNedeniDropdown_Secenek",
+    "value": "div[class=\"form-group\"]>select[class=\"krc-select\"]>option",
+    "type": "css"
+  },
+  {
+    "key": "UrunDetaySayfasi_IadeYontemiPopup_IadeAciklamasiTextArea",
+    "value": "div[class=\"form d-flex align-items-center flex-column\"]>div[class=\"form-group\"]>textarea",
+    "type": "css"
+  },
+  {
+    "key": "UrunDetaySayfasi_IadeYontemiPopup_IadeOlusturButton",
+    "value": "div[id='modalReturn']>div>div>div>div>div>button",
+    "type": "css"
+  },
+  {
+    "key": "UrunDetaySayfasi_IadeYontemiPopup_UyariMesaji",
+    "value": "#modalReturn > div > div > div> div[class='krc-alert error mb-3']> div",
+    "type": "css"
+  },
+  {
+    "key": "UrunDetaySayfasi_IadeBasariliPopup_IadeBasariileYazi",
+    "value": "#modalReturnSuccess>div>div[class=\"modal-content\"]>div[class=\"modal-header pt-0\"]>div>p[class=\"mb-0\"]",
+    "type": "css"
+  },
+  {
+    "key": "UrunDetaySayfasi_IadeBasariliPopup_IadeKodu",
+    "value": "//*[@id=\"modalReturnSuccess\"]/div/div/div[2]/div/div[1]/div[@class='orderReturnInformation']/p[1]",
+    "type": "xpath"
+  },
+
+  {
+    "key": "UrunDetaySayfasi_IadeBasariliPopup_AliciKodu",
+    "value": "//*[@id=\"modalReturnSuccess\"]/div/div/div[2]/div/div[1]/div[@class='orderReturnInformation']/p[2]",
+    "type": "xpath"
+  },
+
+  {
+    "key": "UrunDetaySayfasi_IadeBasariliPopup_CloseButton",
+    "value": "div[id=\"modalReturnSuccess\"]>div>div>button",
+    "type": "css"
+  },
+
+  {
+    "key": "UrunDetaySayfasi_ParaIadesiTalebiOlusturulduYazisi",
+    "value": "//*[@id=\"order-07066163\"]/div/div[1]/ul/li[5]/span/strong[1]",
+    "type": "xpath"
+  },
+
+  {
+    "key": "UrunDetaySayfasi_IadeKodu",
+    "value": "//*[@id=\"order-07066163\"]/div/div[1]/ul/li[5]/span/strong[2]",
+    "type": "xpath"
+  },
+
+  {
+    "key": "UrunDetaySayfasi_AliciKodu",
+    "value": "//*[@id=\"order-07066163\"]/div/div[1]/ul/li[5]/span/strong[3]",
+    "type": "xpath"
+  },
+
+  {
+    "key": "UrunDetaySayfasi_IadeTalebinizAlindiYazisi",
+    "value": "//*[@id=\"order-07066163\"]/div/div[1]/ul/li[6]/span/strong",
+    "type": "xpath"
+  },
+
+  {
+    "key": "UrunDetaySayfasi_CerezKapatButton",
+    "value": "div[class=\"cookiealert Fixed\"]>a[class=\"acceptcookies\"]",
+    "type": "css"
+  },
+
+  {
+    "key": "UrunDetaySayfasi_IadeTalebiIptalButton",
+    "value": "//div[@id='279588276']/div/div[@id=\"order-07066163\"]/div/div[1]/ul/li[5]/span/strong[4]/a",
+    "type": "xpath"
+  },
+  {
+    "key": "UrunDetaySayfasi_IadeYontemiPopup_Header_100tlAlti",
+    "value": "div[id=\"returnOptionModal\"]>div>div>div>div>h4",
+    "type": "css"
+  },
+  {
+    "key": "UrunDetaySayfasi_IadeYontemiPopup_UrunSizdeKalsinYazisi_100tlAlti",
+    "value": "//div[@id=\"returnOptionModal\"]/div/div/div/div/div/div/div/div[2]/span",
+    "type": "xpath"
+  },
+
+  {
+    "key": "UrunDetaySayfasi_IadeYontemiPopup_HemenIadeButonu_100tlAlti",
+    "value": "//*[@id=\"returnOptionModal\"]/div/div/div[2]/div/div/div/div/button",
+    "type": "xpath"
+  },
+
+  {
+    "key": "UrunDetaySayfasi_IadebasariliPopup_Header_100tlAlti",
+    "value": "div[id=\"modalSuccessReturn\"]>div>div>div>h4[class=\"modal-title\"]",
+    "type": "css"
+  },
+
+  {
+    "key": "UrunDetaySayfasi_IadebasariliPopup_HediyeCekiYazi_100tlAlti",
+    "value": "//div[@id=\"modalSuccessReturn\"]/div/div/div/div/span[2]",
+    "type": "xpath"
+  },
+
+  {
+    "key": "UrunDetaySayfasi_IadebasariliPopup_KapatButonu_100tlAlti",
+    "value": "div[id=\"modalSuccessReturn\"]>div>div>div>div>button",
+    "type": "css"
+  },
+
+  {
+    "key": "UrunDetaySayfasi_IadebasariliPopup_CarpiButonu_100tlAlti",
+    "value": "#modalSuccessReturn > div > div > div.modal-header > button",
+    "type": "css"
+  },
+
+  {
+    "key": "UrunDetaySayfasi_HediyeCekiniIptalEtButonu_100tlAlti",
+    "value": "//*[@id=\"order-07066163\"]/div/div[1]/ul/li[5]/span/strong[2]/a",
+    "type": "xpath"
+  },
+
+  {
+    "key": "UrunDetaySayfasi_AdresBilgileri",
+    "value": "//*[@id=\"account_react\"]/section/div/div/div[2]/div[3]/div[3]/h1",
+    "type": "xpath"
+  },
+
+  {
+    "key": "UrunDetaySayfasi_HediyeCekinizOlusturulduYazisi_100tlAlti",
+    "value": "//*[@id=\"order-07066163\"]/div/div[1]/ul/li[5]/span/strong[1]",
+    "type": "xpath"
+  },
+
+  {
+    "key": "UrunDetaySayfasi_IadebasariliPopup_CarpiButonu_100tlAlti",
+    "value": "#modalSuccessReturn > div > div > div.modal-header > button",
+    "type": "css"
+  },
+  {
+    "key": "UrunDetaySayfasi_IadeYontemiPopup_KartaIadeetLinki_100tlAlti",
+    "value": "//*[@id=\"returnOptionModal\"]/div/div/div[2]/div/div/div/div/div/a",
+    "type": "xpath"
+  },
+  {
+    "key": "UrunDetaySayfasi_IADEBASARILIPopup_HeaderAltindakiYazi_100tlAlti",
+    "value": "#modalSuccessOptionReturn >div>div[class=\"modal-content\"]>div[class=\"modal-header pt-0\"]>div>p[class=\"mb-0\"]",
+    "type": "css"
+  },
+  {
+    "key": "UrunDetaySayfasi_BosAlan",
+    "value": "#order-07066163 > div > div.col-lg-7.col-md-7.col-12.d-flex > div",
+    "type": "css"
+  }
+]

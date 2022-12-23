@@ -1,0 +1,12 @@
+[
+  {
+    "key": "P_SiparislerimSayfasi_SiparisNoAramaKutusu",
+    "value": "div[class=\"search\"]>input",
+    "type": "css"
+  },
+  {
+    "key": "P_SiparislerimSayfasi_SiparisDetayButton",
+    "value": "div[class='card-header']>div>a[title=\"Sipariş Detayı\"]",
+    "type": "css"
+  }
+]

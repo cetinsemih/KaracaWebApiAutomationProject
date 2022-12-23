@@ -1,0 +1,125 @@
+# P_Ana Sayfa açilir.
+* "https://www.karaca.com/" adresine git
+* Şuanki URL "https://www.karaca.com/" değerini içeriyor mu kontrol et
+* P_Cerezler kapatilir
+*P_Cark pop-upi kapatilir.
+
+#P_Cark pop-upi kapatilir.
+* "P_CarkPopUp_CloseButton" elementi varsa tikla
+
+# P_Arama alaninda <ara> kelimesi aratilir.
+* "P_AnaEkran_AramaAlani" elementini kontrol et
+* <ara> textini "P_AnaEkran_AramaAlani" elemente yaz
+*"1" saniye bekle
+* "P_AnaEkran_AramaButonu" elementini kontrol et
+* "P_AnaEkran_AramaButonu" elementine tikla
+
+# P_Arama alaninda <ara> kelimesi aratilir. Arama sonucu kontrol edilir.
+* "P_AnaEkran_AramaAlani" elementini kontrol et
+* <ara> textini "P_AnaEkran_AramaAlani" elemente yaz
+*"1" saniye bekle
+* "P_AnaEkran_AramaButonu" elementine tikla
+*"1" saniye bekle
+* "P_AnaEkran_AramaSayfasi" elementi <ara> değerini içeriyor mu kontrol et
+* "P_AnaEkran_AramaSayfasi" elementi "' için arama sonuçları" değerini içeriyor mu kontrol et
+
+# P_Cerezler kapatilir
+* "P_AnaSayfa_CerezTamamButon" elementi varsa tikla
+
+# P_Ana Sayfa'ya don
+* "P_AnaSayfa_Karaca Logo" elementini kontrol et
+* "500" milisaniye bekle
+* "P_AnaSayfa_Karaca Logo" elementine tikla
+
+# P_Ana Sayfa_Sepetim Butonuna tikla
+* "P_AnaSayfa_Sepetim Butonu" elementini kontrol et
+* "P_AnaSayfa_Sepetim Butonu" elementine tikla
+
+//Kategori Başlıkları
+# P_Ana Sayfa Sofra ana basligina tiklanir.
+*"P_AnaSayfa_SofraAnaBasligi" elementini kontrol et
+*"P_AnaSayfa_SofraAnaBasligi" elementine tikla
+
+#P_Ana Sayfa Mutfak ana basligina tiklanir.
+*"P_AnaSayfa_MutfakAnaBasligi" elementini kontrol et
+*"P_AnaSayfa_MutfakAnaBasligi" elementine tikla
+
+
+
+-----Hesabım Butonu
+# P_Ana Sayfa_Hesabim butonuna tıklanır
+* "P_AnaEkran_HesabimButonu" elementini kontrol et
+* "P_AnaEkran_HesabimButonu" elementine tikla
+
+# P_Ana Sayfa_Hesabim butonuna varsa tıklanır
+* "P_AnaEkran_HesabimButonu" elementini kontrol et
+* "P_AnaEkran_HesabimButonu" elementi varsa tikla
+
+# P_Ana Sayfa_Hesabim_Giris Yap butonuna tiklanir.
+* "P_AnaEkran_HesabimButonu" elementin üstünde bekle
+* "P_AnaSayfa_Hesabim_GirisYap" elementine tikla
+
+# P_Ana Sayfa_Hesabim_Uye Ol butonuna tiklanir.
+* "P_AnaEkran_HesabimButonu" elementin üstünde bekle
+* "P_AnaSayfa_Hesabim_UyeOl" elementine tikla
+
+# P_Ana Sayfa_Hesabim_Sparislerim butonuna tiklanir.
+* "P_AnaEkran_HesabimButonu" elementin üstünde bekle
+* "P_AnaSayfa_Hesabim_Siparislerim" elementine tikla
+
+# P_Ana Sayfa_Hesabim_Listelerim butonuna tiklanir.
+* "P_AnaEkran_HesabimButonu" elementin üstünde bekle
+* "P_AnaSayfa_Hesabim_Listelerim" elementine tikla
+
+# P_Ana Sayfa_Hesabim_Adreslerim butonuna tiklanir.
+* "P_AnaEkran_HesabimButonu" elementin üstünde bekle
+* "P_AnaSayfa_Hesabim_Adreslerim" elementine tikla
+
+# P_Ana Sayfa_Hesabim_Taleplerim butonuna tiklanir.
+* "P_AnaEkran_HesabimButonu" elementin üstünde bekle
+* "P_AnaSayfa_Hesabim_Taleplerim" elementine tikla
+
+# P_Ana Sayfa_Hesabim_Indirim Kuponlarim butonuna tiklanir.
+* "P_AnaEkran_HesabimButonu" elementin üstünde bekle
+* "P_AnaSayfa_Hesabim_IndirimKuponlarim" elementine tikla
+
+# P_Ana Sayfa_Hesabim_Favorilerim butonuna tiklanir.
+* "P_AnaEkran_HesabimButonu" elementin üstünde bekle
+* "P_AnaSayfa_Hesabim_Favorilerim" elementine tikla
+
+# P_Ana Sayfa_Hesabim_Cikis Yap butonuna tiklanir.
+* "P_AnaEkran_HesabimButonu" elementin üstünde bekle
+* "P_AnaSayfa_Hesabim_CikisYap" elementine tikla
+
+# P_Ana Sayfa_Hesabim_Sifre Degistirme butonuna tiklanir.
+* "P_AnaEkran_HesabimButonu" elementin üstünde bekle
+* "P_AnaSayfa_Hesabim_SifreYenileme" elementine tikla
+
+# P_Ana Sayfa_Hesabim_Yedek Parca Talep Formu butonuna tiklanir.
+* "P_AnaEkran_HesabimButonu" elementin üstünde bekle
+* "P_AnaSayfa_Hesabim_YedekParcaTalepFormu" elementine tikla
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

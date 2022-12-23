@@ -1,0 +1,130 @@
+# T_Uye Ol Ekrani'nin Açıldiği kontrol edilir.
+* "P_UyeOl_KayitOl" elementini kontrol et
+
+# T_Uye Ol Ekrani'nin Açıldiği kontrol edilir.(WithOutCaptcha)
+* "P_UyeOl_KayitOl_WithoutCaptcha" elementini kontrol et
+
+
+
+// Ulaş
+# T_hesabim_sayfasi_acilir
+ * "T_Hesabim" elementini kontrol et
+ * "T_Hesabim" elementine tikla
+
+# T_uye_Ol_butonuna_tiklanir
+* "T_Uye_Ol" elementini kontrol et
+* "T_Uye_Ol" elementine tikla
+
+# T_uye_olma_sayfası_acilir
+ * Şuanki URL "https://yeni.krc.com.tr/account/login" değerini içeriyor mu kontrol et
+
+# T_uye_olma_<Ad>_ad_bilgisi_girilir
+ * "T_LoginEkranıAdAlanı" elementini kontrol et
+ * <Ad> textini "T_LoginEkranıAdAlanı" li yere yaz
+
+# T_uye_olma_ad_bilgisi_kontrolü_yapılır
+* Şuanki URL "T_LoginEkranıAdAlanıUyarı" değerini içeriyor mu kontrol et
+
+# T_uye_olma_<Soyad>_soyad_bilgisi_girilir
+ * "T_SoyadAlanı" elementini kontrol et
+ * "T_SoyadAlanı" elementine tikla
+ * <Soyad> textini "T_SoyadAlanı" li yere yaz
+
+# T_uye_olma_soyad_bilgisi_kontrolü_yapilir
+ * Şuanki URL "T_SoyadAlanıUyarı" değerini içeriyor mu kontrol et
+
+# T_uye_olma_<EPosta>_eposta_bilgisi_girilir
+ * "T_E_Posta" elementini kontrol et
+ * "T_E_Posta" elementine tikla
+ * <EPosta> textini "T_E_Posta" li yere yaz
+
+# T_uye_olma_eposta_bilgisi_kontrolü_yapilir
+* Şuanki URL "T_E_PostaUyarı" değerini içeriyor mu kontrol et
+
+# T_uye_olma <Dogumtarihi> bilgisi_girilir
+ * "T_Dogum_Tarihi" elementini kontrol et
+ * "T_Dogum_Tarihi" elementine tikla
+ * <Dogumtarihi> textini "T_Dogum_Tarihi" li yere yaz
+
+# T_uye_olma_<GSM>_gsm_bilgisi_girilir
+ * "T_GSM" elementini kontrol et
+ * "T_GSM" elementine tikla
+ * <GSM> textini "T_GSM" li yere yaz
+
+# T_uye_olma_gsm_bilgisi_kontrolü_yapilir
+ * Şuanki URL "T_GSMUyarı" değerini içeriyor mu kontrol et
+
+# T_uye_olma-<Sifre>-bilgisi_girilir
+ * "T_Sifre" elementini kontrol et
+ * "T_Sifre" elementine tikla
+ *<Sifre> textini "T_Sifre" li yere yaz
+
+# T_uye_olma_sifre_bilgisi_kontrolü_yapilir
+ * Şuanki URL "T_SifreUyarı" değerini içeriyor mu kontrol et
+
+# T_uye_olma_cinsiyet_bilgisi_girilir
+ * "T_Cinsiyet" elementini kontrol et
+ * "T_Cinsiyet" elementine tikla
+
+# T_uye_olma_uye_aydinlatma_metni_görüntülenir
+ * "T_Uye_Aydınlatma_Metni" elementini kontrol et
+ * "T_Uye_Aydınlatma_Metni" elementine tikla
+
+ # T_uye_olma_uye_aydinlatma_metni_kapatilir.
+  * "T_UyeOl_UyeAydinlatmaMetni" elementini kontrol et
+  * "T_UyeOl_UyeAydinlatmaMetni" elementine tikla
+
+
+# T_uye_olma_bireysel_kullanici_sozlesmesi_acilir.
+   * "T_UyeOl_Bireysel_Kullanici_Sozlesmesi" elementini kontrol et
+   * "T_UyeOl_Bireysel_Kullanici_Sozlesmesi" elementine tikla
+
+# T_uye_olma_bireysel_kullanici_sozlesmesi_kapatilir.
+     * "T_UyeOl_Bireysel_Kullanici_Sozlesmesi_KapatmaButonu" elementini kontrol et
+     * "T_UyeOl_Bireysel_Kullanici_Sozlesmesi_KapatmaButonu" elementine tikla
+
+# T_uye_olma_bireysel_kullanıcı_sözlesmesi_onaylanır
+   * "T_UyeOl_Bireysel_Kullanıci_Sozlesmesi_CheckBox" elementini kontrol et
+   * "T_UyeOl_Bireysel_Kullanıci_Sozlesmesi_CheckBox" elementine tikla
+
+# T_uye_olma_cuzdan_aydinlatma_metni_görüntülenir
+ * "T_CuzdanAydinlatmaMetni" elementini kontrol et
+ * "T_CuzdanAydinlatmaMetni" elementine tikla
+
+# T_uye_olma_cuzdan_aydinlatma_metni_kapatilir
+* "T_CuzdanAydinlatmaMetniKapat" elementini kontrol et
+* "T_CuzdanAydinlatmaMetniKapat" elementine tikla
+
+# T_uye_olma_sipay_aydinlatma_metni_görüntülenir
+ * "T_SipayAydinlatmaMetni" elementini kontrol et
+ * "T_SipayAydinlatmaMetni" elementine tikla
+
+# T_uye_olma_sipay_aydinlatma_metni_kapatilir
+* "T_SipayAydinlatmaMetniKapat" elementini kontrol et
+* "T_SipayAydinlatmaMetniKapat" elementine tikla
+
+# T_uye_olma_uyelik_sozlesmesi_onaylanır
+ * "T_UyelikSozlesmesi" elementini kontrol et
+ * "T_UyelikSozlesmesi" elementine tikla
+
+# T_uye_olma_uyelik_sozlesmesi_kontrolü_yapılır
+ * Şuanki URL "T_UyelikSozlesmesiUyarı" değerini içeriyor mu kontrol et
+
+# T_uye_olma_sms_icin_iletisim_izni_görüntülenir
+ * "T_SMS_Iletisim_izni" elementini kontrol et
+ * "T_SMS_Iletisim_izni" elementine tikla
+
+ # T_uye_Olma_eposta_icin_iletisim_izni_görüntülenir
+  * "T_EPosta_Iletisim_izni" elementini kontrol et
+  * "T_EPosta_Iletisim_izni" elementine tikla
+
+ # T_uye_olma_arama_icin_iletisim_izni_görüntülenir
+  * "T_Arama_Iletisim_izni" elementini kontrol et
+  * "T_Arama_Iletisim_izni" elementine tikla
+
+ # T_uye_olunur
+ *"T_Uye_Olma_Butonu" elementini kontrol et
+ *"T_Uye_Olma_Butonu" elementine tikla
+
+
+

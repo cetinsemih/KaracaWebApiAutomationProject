@@ -1,0 +1,105 @@
+# T_Sepetim Sayfası_Sepeti Bosalt PopUp_Sepeti Bosalt butonuna tıklanır.
+* "T_Sepetim Sayfasi_Sepeti Bosalt PopUp_Sepeti Bosalt butonu" elementi varsa tikla
+
+
+
+Batuhan
+# T_Sepetim Sayfası urun adedinin <adet> oldugu gorulur.
+* "T_SepetimSayfasi_UrunAdedi" elementini kontrol et
+* "T_SepetimSayfasi_UrunAdedi" elementi <adet> değerini içeriyor mu kontrol et
+
+# T_Sepetim Sayfası urun adedi 1 arttirilir.
+* "T_SepetimSayfasi_UrunAdetiArttir" elementini kontrol et
+* "T_SepetimSayfasi_UrunAdetiArttir" elementine tikla
+
+# T_Sepetim Sayfası urun adedi 1 azaltilir.
+* "T_SepetimSayfasi_UrunAdetiAzalt" elementini kontrol et
+* "T_SepetimSayfasi_UrunAdetiAzalt" elementine tikla
+
+# T_Sepetim Sayfası urunu sepetten kaldır.
+* "T_SepetimSayfasi_UrunuSepettenKaldir" elementini kontrol et
+* "T_SepetimSayfasi_UrunuSepettenKaldir" elementine tikla
+
+# T_Sepetim Sayfası Sepetin boş olduğu kontrol edilir.
+* "T_SepetimSayfasi_SepetBosYazi" elementini kontrol et
+* "T_SepetimSayfasi_SepetBosYazi" elementi "Sepetiniz Şimdilik Boş" değerini içeriyor mu kontrol et
+
+# T_Sepetim Sayfası_Sepeti Bosalt PopUP_Sepeti Bosalt butonuna tıklanır.
+* "T_Sepetim Sayfasi_Sepeti Bosalt PopUP_Sepeti Bosalt butonu" elementi varsa tikla
+
+# T_Sepetim Sayfası_Sepeti Bosalt PopUP_Vazgec butonuna tıklanır.
+* "T_Sepetim Sayfasi_Sepeti Bosalt PopUP_vazgec butonu" elementi varsa tikla
+
+# T_Sepetim Sayfasi_Sil butonu ile urun sepetten kaldirilir.
+* "T_Sepetim Sayfasi_Urun datay alani - Sil butonu" elementini kontrol et
+* "T_Sepetim Sayfasi_Urun datay alani - Sil butonu" elementine tikla
+
+# T_Sepetim Sayfasi_Sepeti Bosalt butonu ile sepeti bosalt.
+* "T_Sepetim Sayfasi_Sepeti bosalt butonu" elementini kontrol et
+* "T_Sepetim Sayfasi_Sepeti bosalt butonu" elementine tikla
+
+# T_Sepetim Sayfasi_Devam Et butonuna tiklanir.
+* "T_Sepetim Sayfasi_Devam et butonu" elementini kontrol et
+* "T_Sepetim Sayfasi_Devam et butonu" elementine tikla
+
+# T_Sepetim Sayfasi_Kupon alanina girilir.
+* Click to element "T_SepetimSayfasi_Kuponalani"
+* "TESTINIUM1" textini "T_SepetimSayfasi_Kuponalani" elemente yaz
+
+# T_Sepetim Sayfasi_Kupon butonuna tiklanir.
+* "T_SepetimSayfasi_Kuponbutonu" elementini kontrol et
+* Click to element "T_SepetimSayfasi_Kuponbutonu"
+
+# T_Sepetim Sayfasi_Devam butonuna tiklanir.
+* "10" saniye bekle
+* "T_SepetimSayfasi_Devambutonu" elementini kontrol et
+* Click to element "T_SepetimSayfasi_Devambutonu"
+
+# T_Sepetim Sayfasi_Gecersiz_Kupon alanina girilir.
+* Click to element "T_SepetimSayfasi_Kuponalani"
+* "24KASIM" textini "T_SepetimSayfasi_Kuponalani" elemente yaz
+
+# T_Sepetim Sayfasi_Kupon butonuna tiklanir2.
+* "T_SepetimSayfasi_Kuponbutonu" elementini kontrol et
+* Click to element "T_SepetimSayfasi_Kuponbutonu"
+*"10" saniye bekle
+
+# T_Sepetim Sayfasi_Kayitsiz_Kupon alanina girilir.
+* Click to element "T_SepetimSayfasi_Kuponalani2"
+* "24KASIM" textini "T_SepetimSayfasi_Kuponalani2" elemente yaz
+
+# T_Sepetim Sayfasi_Kupon butonuna tiklanir3.
+* "T_SepetimSayfasi_Kuponbutonu2" elementini kontrol et
+* Click to element "T_SepetimSayfasi_Kuponbutonu2"
+*"10" saniye bekle
+
+# T_Sepetim Sayfasi_Fatura Devam butonuna tiklanir.
+* "T_SepetimSayfasi_FaturaDevambutonu" elementini kontrol et
+* Click to element "T_SepetimSayfasi_FaturaDevambutonu"
+*"5" saniye bekle
+
+# T_Sepetim Sayfasi_Odeme Yontemleri Tabına tiklanir.
+* "T_SepetimSayfasi_OdemeYontemleri" elementini kontrol et
+* Click to element "T_SepetimSayfasi_OdemeYontemleri"
+*"5" saniye bekle
+
+# T_Sepetim Sayfasi_Odeme Yontemleri_GarantiPay tiklanir.
+* "T_SepetimSayfasi_OdemeYontemleri_Garantipay" elementini kontrol et
+* Click to element "T_SepetimSayfasi_OdemeYontemleri_Garantipay"
+
+# T_Sepetim Sayfasi_Odeme Yontemleri_OdemebilgilendirmeFormu checkboxu tiklanir.
+* "T_SepetimSayfasi_OdemeYontemleri_Obform" elementini kontrol et
+* Click to element "T_SepetimSayfasi_OdemeYontemleri_Obform"
+
+# T_Sepetim Sayfasi_Odeme Yontemleri_GuvenliOdebutonuna tiklanir.
+* "T_SepetimSayfasi_OdemeYontemleri_Guvenliodeme" elementini kontrol et
+* Click to element "T_SepetimSayfasi_OdemeYontemleri_Guvenliodeme"
+* "8" saniye bekle
+
+# T_Sepetim Sayfasi_Odeme Yontemleri_Iyzico tiklanir.
+* "T_SepetimSayfasi_OdemeYontemleri_Iyzico" elementini kontrol et
+* Click to element "T_SepetimSayfasi_OdemeYontemleri_Iyzico"
+
+# T_Sepetim Sayfasi_Odeme Yontemleri_Paycell tiklanir.
+* "T_SepetimSayfasi_OdemeYontemleri_Paycell" elementini kontrol et
+* Click to element "T_SepetimSayfasi_OdemeYontemleri_Paycell"

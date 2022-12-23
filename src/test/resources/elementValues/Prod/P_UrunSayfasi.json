@@ -1,0 +1,7 @@
+[
+  {
+    "key": "P_UrunSayfasi_ListelenenUrunler",
+    "value": "//div[@class=\"productListLoop\"]/div/div/a/div[@class=\"inner\"]",
+    "type": "xpath"
+  }
+]

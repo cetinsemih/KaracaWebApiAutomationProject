@@ -1,0 +1,14 @@
+# P_Listelenen Urunlerden <sira>. Urunun detay sayfası acilir.
+* Şuanki URL "https://www.karaca.com/product" değerini içeriyor mu kontrol et
+* "P_UrunSayfasi_ListelenenUrunler" li elementlerden <sira>. olana tikla ve stringini listeye kaydet
+* Şuanki URL "https://www.karaca.com/urun" değerini içeriyor mu kontrol et
+//* "P_UrunDetaySayfasi_SepeteEkleButonu" elementini kontrol et
+
+
+# P_<url> adresinde Listelenen Urunlerden <sira>. Urunun detay sayfası acilir.
+* Şuanki URL <url> değerini içeriyor mu kontrol et
+* "P_UrunSayfasi_ListelenenUrunler" li elementlerden <sira>. olana tikla ve stringini listeye kaydet
+* Şuanki URL "https://www.karaca.com/urun" değerini içeriyor mu kontrol et
+//* "P_UrunDetaySayfasi_SepeteEkleButonu" elementini kontrol et
+
+

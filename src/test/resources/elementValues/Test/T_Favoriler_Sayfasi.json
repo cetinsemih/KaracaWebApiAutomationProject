@@ -1,0 +1,17 @@
+[
+  {
+    "key": "T_Favoriler_Sayfasi_HeadTitle",
+    "value": "#account_react > section > div > div > div.col-12.col-md-6.col-lg-9.accountForm.addressForm > div:nth-child(2) > h1",
+    "type": "css"
+  },
+  {
+    "key": "T_Favoriler_Sayfasi_ArananUrun",
+    "value": "#account_react > section > div > div > div.col-12.col-md-6.col-lg-9.accountForm.addressForm > div:nth-child(2) > div.favoriteList > div.favoriteListItem.row > div:nth-child(2) > div.image > a:nth-child(2) > img",
+    "type": "css"
+  },
+  {
+    "key": "T_Favoriler_UrunSayfasi_ArananUrun",
+    "value": "body > main > section:nth-child(21) > div > div:nth-child(2) > div.info.d-flex > div > div.pdpSideSticky > div.infoLine.order-1.productPriceContent > h1",
+    "type": "css"
+  }
+]

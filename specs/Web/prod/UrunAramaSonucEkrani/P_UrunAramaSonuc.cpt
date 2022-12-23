@@ -1,0 +1,43 @@
+# P_Arama Sonuc Ekrani_Listeleme Alani_Onerilen Sıralama Listelenir.
+* "P_AramaSayfasi_SiralamaDropDownMenu" elementini kontrol et
+* "P_AramaSayfasi_SiralamaDropDownMenu" elementine tikla
+* "P_AramaSayfasi_SiralamaDropDownMenu_OnerilenSiralama" elementine tikla
+* "500" milisaniye bekle
+
+# P_Arama Sonuc Ekrani_Listeleme Alani_En Dusuk Fiyat Listelenir.
+* "P_AramaSayfasi_SiralamaDropDownMenu" elementini kontrol et
+* "P_AramaSayfasi_SiralamaDropDownMenu" elementine tikla
+* "P_AramaSayfasi_SiralamaDropDownMenu_EnDusukFiyat" elementine tikla
+* "500" milisaniye bekle
+
+# P_Arama Sonuc Ekrani_Listeleme Alani_En Yuksek Fiyat Listelenir.
+* "P_AramaSayfasi_SiralamaDropDownMenu" elementini kontrol et
+* "P_AramaSayfasi_SiralamaDropDownMenu" elementine tikla
+* "P_AramaSayfasi_SiralamaDropDownMenu_EnYuksekFiyat" elementine tikla
+* "500" milisaniye bekle
+
+# P_Arama Sonuc Ekrani_Listeleme Alani_En Yeniler Listelenir.
+* "P_AramaSayfasi_SiralamaDropDownMenu" elementini kontrol et
+* "P_AramaSayfasi_SiralamaDropDownMenu" elementine tikla
+* "P_AramaSayfasi_SiralamaDropDownMenu_EnYeniler" elementine tikla
+* "500" milisaniye bekle
+
+# P_Arama Sonuc Ekrani_Listeleme Alani_En Cok Satan Listelenir.
+* "P_AramaSayfasi_SiralamaDropDownMenu" elementini kontrol et
+* "P_AramaSayfasi_SiralamaDropDownMenu" elementine tikla
+* "P_AramaSayfasi_SiralamaDropDownMenu_EnCokSatan" elementine tikla
+* "500" milisaniye bekle
+
+# P_Arama Sonuc Ekrani_Listeleme Alani_En Cok Begenilen Listelenir.
+* "P_AramaSayfasi_SiralamaDropDownMenu" elementini kontrol et
+* "P_AramaSayfasi_SiralamaDropDownMenu" elementine tikla
+* "P_AramaSayfasi_SiralamaDropDownMenu_EnCokBegenilen" elementine tikla
+* "500" milisaniye bekle
+
+# P_Arama Sonuc Ekrani_Listeleme Alani_En Cok Degerlendirilenler Listelenir.
+* "P_AramaSayfasi_SiralamaDropDownMenu" elementini kontrol et
+* "P_AramaSayfasi_SiralamaDropDownMenu" elementine tikla
+* "P_AramaSayfasi_SiralamaDropDownMenu_EnCokDegerlendirilenler" elementine tikla
+* "500" milisaniye bekle
+
+

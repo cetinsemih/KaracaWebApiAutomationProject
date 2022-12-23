@@ -1,0 +1,122 @@
+[
+{
+  "key": "P_LoginEkrani_EPostaAlani",
+  "value": "input[id='inputEmailLogin']",
+  "type": "css"
+  }
+,
+  {
+"key": "P_LoginEkrani_SifreAlani",
+"value": "//input[@name='password' and @tabindex='2']",
+"type": "xpath"
+  }
+,
+  {
+"key": "P_LoginEkrani_GirisButonu",
+"value": "button[id='login-with-recaptcha']",
+"type": "css"
+  }
+,
+  {
+    "key": "P_LoginEkrani_GirisButonu_WithOutCaptcha",
+    "value": "button[id='login-without-recaptcha']",
+    "type": "css"
+  }
+,
+  {
+"key": "P_LoginEkrani_UyariMesaji",
+"value": "//div[@class='alert alert-danger']",
+"type": "xpath"
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ,
+  {
+    "key": "P_LoginEkrani_EpostaAlani",
+    "value": "inputEmailLogin",
+    "type": "id"
+  }
+,
+  {
+    "key": "P_LoginEkrani_SifreAlani",
+    "value": "//input[@name=\"password\" and @tabindex=\"2\"]",
+    "type": "xpath"
+  }
+,
+  {
+    "key": "P_LoginEkrani_GirisYapButonu",
+    "value": "button[id='login-with-recaptcha']",
+    "type": "css"
+  }
+
+,
+  {
+    "key": "P_LoginEkrani_UyariMesaji",
+    "value": "div[id='loginUserTab']>div[class='loginUser']>form>div[class='alert alert-danger']",
+    "type": "css"
+  }
+,
+  {
+    "key": "P_LoginEkrani_UyeOlmadanDevamEtButonu",
+    "value": "//div[@class=\"lineLink guestSessionBtn\"]/a",
+    "type": "xpath"
+  }
+,
+  {
+    "key": "P_LoginEkrani_ZiyaretciEpostaAlani",
+    "value": "//input[@id=\"guestSessionsEmail\"]",
+    "type": "xpath"
+  }
+,
+  {
+    "key": "P_LoginEkrani_ZiyaretciKvkkCheckbox",
+    "value": "form[id=\"guestForm\"]>div>label[class=\"checkboxLabel\"]>div",
+    "type": "css"
+  }
+,
+  {
+    "key": "T_LoginEkrani_ZiyaretciKvkkCheckbox",
+    "value": "form[id=\"guestFormNew\"]>div>label[class=\"checkboxLabel\"]>div",
+    "type": "css"
+  }
+,
+  {
+    "key": "P_LoginEkrani_ZiyaretciDevamEtButonu",
+    "value": "form[id=\"guestForm\"]>button",
+    "type": "css"
+  }
+,
+  {
+    "key": "T_LoginEkrani_ZiyaretciDevamEtButonu",
+    "value": "form[id=\"guestFormNew\"]>button",
+    "type": "css"
+  }
+,
+  {
+    "key": "P_LoginEkrani_ZiyaretciEpostaKayitli_UyeGirisi",
+    "value": "//a[@id=\"guestUserLogin\"]",
+    "type": "xpath"
+  }
+,
+  {
+    "key": "P_LoginEkrani_ZiyaretciEpostaKayitli_UyeOlmadanDevamEt",
+    "value": "//a[@id=\"guestForceLogin\"]",
+    "type": "xpath"
+  }
+
+
+
+]

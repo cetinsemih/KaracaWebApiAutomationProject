@@ -1,0 +1,15 @@
+[
+  {
+    "key": "T_AnaEkran_AramaAlani",
+    "value": "form[id='mobile-search']>input",
+    "type": "css"
+  },
+  {
+    "key": "T_AnaEkran_AramaButonu",
+    "value": "a[data-form_name=\"mobile-search\"]",
+    "type": "css"
+  }
+
+]
+
+

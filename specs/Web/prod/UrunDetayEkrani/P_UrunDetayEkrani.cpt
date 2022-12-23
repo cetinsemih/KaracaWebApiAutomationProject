@@ -1,0 +1,13 @@
+# P_Urun Detay Ekrani urun sepete eklenir.
+*"800" milisaniye bekle
+* "P_UrunDetaySayfasi_SepeteEkleButonu" elementini kontrol et
+* "P_UrunDetaySayfasi_SepeteEkleButonu" elementine tikla
+
+# P_Urun Detay Ekrani 'SEPETE GIT' butonuna tıklanır.
+* "P_UrunDetaySayfasi_SepeteGit" elementini kontrol et
+* "P_UrunDetaySayfasi_SepeteGit" elementine tikla
+* Şuanki URL "https://www.karaca.com/checkout/cart" değerini içeriyor mu kontrol et
+
+# P_Urun Detay Ekrani 'Alisverise Devam Et' butonuna tıklanır.
+* "P_UrunDetaySayfasi_AlisveriseDevamEt" elementini kontrol et
+* "P_UrunDetaySayfasi_AlisveriseDevamEt" elementine tikla

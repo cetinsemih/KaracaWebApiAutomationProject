@@ -1,0 +1,27 @@
+[
+  {
+    "key": "T_UrunSayfasi_GidilenUrunAdi",
+    "value": "div[class=\"infoLine order-1 productPriceContent\"]>h1[class='title']",
+    "type": "css"
+  },
+  {
+    "key": "T_UrunSayfasi_GidilenUrunAdi",
+    "value": "div[class=\"infoLine order-1 productPriceContent\"]>h1[class='title']",
+    "type": "css"
+  },
+  {
+    "key": "T_UrunSayfasi_CookieButton",
+    "value": "div[class=\"cookiealert Fixed\"]>a[class='acceptcookies']",
+    "type": "css"
+  },
+  {
+    "key": "T_UrunSayfasi_SepeteEkle",
+    "value": "div[class='order productDetailStockStatus productDetailStockStatus-1']",
+    "type": "css"
+  },
+  {
+    "key": "T_UrunSayfasi_SepeteGit",
+    "value": "#multipleAddCart > div > div.krc-modal-body > div.btns > button.krc-btn.krc-btn-full",
+    "type": "css"
+  }
+]

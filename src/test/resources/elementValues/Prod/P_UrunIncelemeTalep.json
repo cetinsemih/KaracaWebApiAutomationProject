@@ -1,0 +1,192 @@
+[
+  {
+    "key": "P_UrunIncelemeTalep_Header",
+    "value": "div.col-12.col-md-6.col-lg-9.demand-form > h1[class=\"head-title\"]",
+    "type": "css"
+  },
+
+  {
+    "key": "P_UrunIncelemeTalep_GorselEkleButton",
+    "value": "form[id=\"aftersales-oservice-form\"]>div>div[data-target=\"img-input\"]",
+    "type": "css"
+  },
+
+  {
+    "key": "P_UrunIncelemeTalep_TalepOlusturButton_Disable",
+    "value": "div[class=\"form-group d-flex col-lg-8 align-items-end p-0\"]>button[type=\"submit\"][disabled]",
+    "type": "css"
+  },
+
+  {
+    "key": "P_UrunIncelemeTalep_TalepOlusturButton_Enable",
+    "value": "div[class=\"form-group d-flex col-lg-8 align-items-end p-0\"]>button[data-add]",
+    "type": "css"
+  },
+
+  {
+    "key": "P_UrunIncelemeTalep_GorselYesilYazi",
+    "value": "label>span[class=\"text-success font-weight-bold\"]",
+    "type": "css"
+  },
+
+  {
+    "key": "P_UrunIncelemeTalep_UrunIncelemeNedeniTextarea",
+    "value": "div[class=\"detail-message col-lg-8 col-sm-12 p-0\"]>textarea[id=\"detail-input\"]",
+    "type": "css"
+  },
+
+  {
+    "key": "P_UrunIncelemeTalep_AdresSecimDropdown",
+    "value": "form>select[id=\"address-input\"]",
+    "type": "css"
+  },
+
+  {
+    "key": "P_UrunIncelemeTalep_AdresSecimDropdown_Options",
+    "value": "form>select[id=\"address-input\"]>option",
+    "type": "css"
+  },
+
+  {
+    "key": "P_UrunIncelemeTalep_AdresSecimDropdown_SonEklenenEleman",
+    "value": "//*[@id=\"address-input\"]/option[1]",
+    "type": "xpath"
+  },
+
+  {
+    "key": "P_UrunIncelemeTalep_YeniAdresEkleButton",
+    "value": "form>button[data-target=\"#updateAddress\"]",
+    "type": "css"
+  },
+
+  {
+    "key": "P_UrunIncelemeTalep_YeniAdresEklePopup_Header",
+    "value": "div[class=\"modal-header\"]>h4[id=\"modal_updateAddressLabel\"]",
+    "type": "css"
+  },
+
+  {
+    "key": "P_UrunIncelemeTalep_YeniAdresEklePopup_FirstnameTextBox",
+    "value": "div[class=\"form-group col-lg-6 col-12\"]>input[name=\"firstname\"]",
+    "type": "css"
+  },
+
+  {
+    "key": "P_UrunIncelemeTalep_YeniAdresEklePopup_LastnameTextBox",
+    "value": "div[class=\"form-group col-lg-6 col-12\"]>input[name=\"lastname\"]",
+    "type": "css"
+  },
+
+  {
+    "key": "P_UrunIncelemeTalep_YeniAdresEklePopup_TelephoneTextBox",
+    "value": "div[class=\"form-group col-lg-6 col-12 telephoneDiv\"]>input[name=\"telephone\"]",
+    "type": "css"
+  },
+  {
+    "key": "P_UrunIncelemeTalep_YeniAdresEklePopup_AdressTextBox",
+    "value": "div>textarea[name=\"address_1\"]",
+    "type": "css"
+  },
+  {
+    "key": "P_UrunIncelemeTalep_YeniAdresEklePopup_PostCodeTextBox",
+    "value": "div>input[id=\"post_code\"]",
+    "type": "css"
+  },
+  {
+    "key": "P_UrunIncelemeTalep_YeniAdresEklePopup_AdressTitleTextBox",
+    "value": "div>input[id=\"address_title\"]",
+    "type": "css"
+  },
+  {
+    "key": "P_UrunIncelemeTalep_YeniAdresEklePopup_SehirDropdown",
+    "value": "div>select[name=\"zone_id\"]",
+    "type": "css"
+  },
+  {
+    "key": "P_UrunIncelemeTalep_YeniAdresEklePopup_IlceDropdown",
+    "value": "div>select[name=\"zone_city\"]",
+    "type": "css"
+  },
+  {
+    "key": "P_UrunIncelemeTalep_YeniAdresEklePopup_MahalleDropdown",
+    "value": "div>select[name=\"zone_district\"]",
+    "type": "css"
+  },
+  {
+    "key": "P_UrunIncelemeTalep_YeniAdresEklePopup_Sehirler",
+    "value": "select[id=\"city\"]>option",
+    "type": "css"
+  },
+  {
+    "key": "P_UrunIncelemeTalep_YeniAdresEklePopup_Ilceler",
+    "value": "select[id=\"district\"]>option",
+    "type": "css"
+  },
+  {
+    "key": "P_UrunIncelemeTalep_YeniAdresEklePopup_Mahalleler",
+    "value": "select[id=\"neighborhood\"]>option",
+    "type": "css"
+  },
+  {
+    "key": "P_UrunIncelemeTalep_YeniAdresEklePopup_LastnameTopText",
+    "value": "div>label[for=\"lastname\"]",
+    "type": "css"
+  },
+
+  {
+    "key": "P_UrunIncelemeTalep_YeniAdresEklePopup_AdAlaniHata",
+    "value": "div[class='form-group col-lg-6 col-12 has-error']>span[id=\"firstname-error\"]",
+    "type": "css"
+  },
+  {
+    "key": "P_UrunIncelemeTalep_YeniAdresEklePopup_SoyadAlaniHata",
+    "value": "div[class='form-group col-lg-6 col-12 has-error']>span[id=\"lastname-error\"]",
+    "type": "css"
+  },
+  {
+    "key": "P_UrunIncelemeTalep_YeniAdresEklePopup_TelefonAlaniHata",
+    "value": "div>span[id=\"telephone-error\"]",
+    "type": "css"
+  },
+  {
+    "key": "P_UrunIncelemeTalep_YeniAdresEklePopup_SehirAlaniHata",
+    "value": "div[class='form-group col-lg-6 col-12 has-error']>span[id=\"city-error\"]",
+    "type": "css"
+  },
+  {
+    "key": "P_UrunIncelemeTalep_YeniAdresEklePopup_IlceAlaniHata",
+    "value": "div[class='form-group col-lg-6 col-12 has-error']>span[id=\"district-error\"]",
+    "type": "css"
+  },
+  {
+    "key": "P_UrunIncelemeTalep_YeniAdresEklePopup_MahalleAlaniHata",
+    "value": "div[class='form-group col-lg-6 col-12 has-error']>span[id=\"neighborhood-error\"]",
+    "type": "css"
+  },
+  {
+    "key": "P_UrunIncelemeTalep_YeniAdresEklePopup_AdresAlaniHata",
+    "value": "div>span[id=\"address-error\"]",
+    "type": "css"
+  },
+  {
+    "key": "P_UrunIncelemeTalep_YeniAdresEklePopup_AdresBasligiAlaniHata",
+    "value": "div[class='form-group col-lg-6 col-12 has-error']>span[id=\"address_title-error\"]",
+    "type": "css"
+  },
+  {
+    "key": "P_UrunIncelemeTalep_YeniAdresEklePopup_VazgecButton",
+    "value": "div[class=\"form-group col-12 text-center\"]>button[data-dismiss=\"modal\"]",
+    "type": "css"
+  },
+  {
+    "key": "P_UrunIncelemeTalep_YeniAdresEklePopup_KaydetButton",
+    "value": "div[class=\"form-group col-12 text-center\"]>button[type=\"submit\"]",
+    "type": "css"
+  },
+
+  {
+    "key": "P_UrunIncelemeTalep_YeniAdresEklePopup_CloseButton",
+    "value": "div[id=\"updateAddress\"]>div>div>div[class=\"modal-header\"]>button[class=\"close modalCloseCustom\"]",
+    "type": "css"
+  }
+]

@@ -1,0 +1,12 @@
+# T_Urun Detay Ekrani urun sepete eklenir.
+* "P_UrunDetaySayfasi_SepeteEkleButonu" elementini kontrol et
+* "P_UrunDetaySayfasi_SepeteEkleButonu" elementine tikla
+
+# T_Urun Detay Ekrani 'SEPETE GIT' butonuna tıklanır.
+* "P_UrunDetaySayfasi_SepeteGit" elementini kontrol et
+* "P_UrunDetaySayfasi_SepeteGit" elementine tikla
+* Şuanki URL "https://yeni.krc.com.tr/checkout/cart" değerini içeriyor mu kontrol et
+
+# T_Urun Detay Ekrani 'Alisverise Devam Et' butonuna tıklanır.
+* "P_UrunDetaySayfasi_AlisveriseDevamEt" elementini kontrol et
+* "P_UrunDetaySayfasi_AlisveriseDevamEt" elementine tikla

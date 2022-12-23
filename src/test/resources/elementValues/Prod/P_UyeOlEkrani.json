@@ -1,0 +1,12 @@
+[
+  {
+    "key": "P_UyeOl_KayitOl",
+    "value": "button[id=\"reg-submit\"]",
+    "type": "css"
+  },
+  {
+    "key": "P_UyeOl_KayitOl_WithoutCaptcha",
+    "value": "button[id=\"reg-submit-without-recaptch\"]",
+    "type": "css"
+  }
+]

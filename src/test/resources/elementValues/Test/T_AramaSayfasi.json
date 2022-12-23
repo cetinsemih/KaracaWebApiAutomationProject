@@ -1,0 +1,43 @@
+[
+  {
+    "key": "T_NavbarHaliLinki",
+    "value": "div[class='container']>nav>a[href='/halilar']",
+    "type": "css"
+  },
+  {
+    "key": "T_Cookie_AramaSayfasi",
+    "value": "/html/body/div[3]/a",
+    "type": "xpath"
+  },
+  {
+    "key": "T_AramaSayfasi_FiltreSalonCheckboxi",
+    "value": "#product-attr-list-73894 > li:nth-child(2) > label",
+    "type": "css"
+  },
+
+  {
+    "key": "T_AramaSayfasi_FiltreSalonOdaHalisiCheckboxi",
+    "value": "li[class]>label[for=\"cbx-filter-salonoda-halisi-0-52\"]",
+    "type": "css"
+  },
+  {
+    "key": "T_Salon_Oda_Filtre_Kontrol",
+    "value": "div[class=\"current-selected-filters w-100\"]>div[class=\"current-filters-body\"]>div[data-value=\"Salon/Oda Halısı\"]>span[class='current-filter-name']",
+    "type": "css"
+  },
+  {
+    "key": "T_AramaSayfasi_MarkalarKontrol",
+    "value": "body > main > section:nth-child(3) > div.product-landing-page.new-product-landing-page > div.filters > div:nth-child(9) > a > span",
+    "type": "css"
+  },
+  {
+    "key": "T_AramaSayfasi_DropdownButtonu",
+    "value": "div[class=\"changeGrid\"]>div[class=\"dropdown shortList\"]>button",
+    "type": "css"
+  },
+  {
+    "key": "T_AramaSayfasi_DropdownButtonu_SecilenSecenek",
+    "value": "body > main > section:nth-child(3) > div.product-landing-page.new-product-landing-page > div.productList > div.filtersHeader > div > div.dropdown.shortList.show > div > a:nth-child(5)",
+    "type": "css"
+  }
+]

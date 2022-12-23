@@ -1,0 +1,127 @@
+# P_Login Ekrani'nin Açıldiği kontrol edilir.
+* "P_LoginEkrani_GirisButonu" elementini kontrol et
+
+# P_Login Ekrani'nin Açıldiği kontrol edilir(WithOutCapcha).
+* "P_LoginEkrani_GirisButonu_WithOutCaptcha" elementini kontrol et
+
+
+# P_Login Ekrani_E-Posta alanina <Eposta> degeri girilir.
+* "P_LoginEkrani_EPostaAlani" elementini kontrol et
+* <Eposta> textini "P_LoginEkrani_EPostaAlani" elemente yaz
+
+# P_Login Ekrani_Sifre alanina <sifre> degeri girilir.
+* "P_LoginEkrani_SifreAlani" elementini kontrol et
+* <sifre> textini "P_LoginEkrani_SifreAlani" elemente yaz
+
+# P_Login Ekrani_Giris Yap Butonuna Tiklanir.
+* "P_LoginEkrani_GirisButonu" elementini kontrol et
+* "P_LoginEkrani_GirisButonu" elementine tikla
+
+# P_Login Ekrani_Giris Yap Butonuna Tiklanir(WithOutCaptcha).
+* "P_LoginEkrani_GirisButonu_WithOutCaptcha" elementini kontrol et
+* "P_LoginEkrani_GirisButonu_WithOutCaptcha" elementine tikla
+
+
+
+
+
+# P_Login Ekrani_Uye Olmadan Devam Et butonuna tiklanir.
+* "P_LoginEkrani_UyeOlmadanDevamEtButonu" elementini kontrol et
+* "P_LoginEkrani_UyeOlmadanDevamEtButonu" elementine tikla
+
+# P_Login Ekrani_Ziyaretci E-Posta anani kontrol edilir.
+* "P_LoginEkrani_ZiyaretciEpostaAlani" elementini kontrol et
+
+# P_Login Ekrani_Ziyaretci E-Posta ananina <Eposta> adresi girilir.
+* "P_LoginEkrani_ZiyaretciEpostaAlani" elementini kontrol et
+* <Eposta> textini "P_LoginEkrani_ZiyaretciEpostaAlani" elemente yaz
+
+# P_Login Ekrani_Ziyaretci Kvkk CheckBox Isaretlenir.
+* "P_LoginEkrani_ZiyaretciKvkkCheckbox" elementini kontrol et
+* "P_LoginEkrani_ZiyaretciKvkkCheckbox" elementine tikla
+
+# P_Login Ekrani_Ziyaretci Devam Et butonuna tiklanir.
+* "P_LoginEkrani_ZiyaretciDevamEtButonu" elementini kontrol et
+* "P_LoginEkrani_ZiyaretciDevamEtButonu" elementine tikla
+
+# P_Login Ekrani_Ziyaretci Eposta kayitli Uye Girisi Butonuna tikla
+* "P_LoginEkrani_ZiyaretciEpostaKayitli_UyeGirisi" elementini kontrol et
+* "P_LoginEkrani_ZiyaretciEpostaKayitli_UyeGirisi" elementine tikla
+
+# P_Login Ekrani_Ziyaretci Eposta kayitli Uye Olmadan Devam Et Butonuna tikla
+* "P_LoginEkrani_ZiyaretciEpostaKayitli_UyeOlmadanDevamEt" elementini kontrol et
+* "P_LoginEkrani_ZiyaretciEpostaKayitli_UyeOlmadanDevamEt" elementine tikla
+
+
+
+
+
+
+
+
+#P_Hesabim butonuna tiklanir.
+* "P_AnaEkran_HesabimButonu" elementini kontrol et
+* Click to element "P_AnaEkran_HesabimButonu"
+#P_Gecerli E-Posta girilir.
+* "P_LoginEkrani_EpostaAlani" elementini kontrol et
+* Click to element "P_LoginEkrani_EpostaAlani"
+* "test@test.com" textini "P_LoginEkrani_EpostaAlani" elemente yaz
+#P_Gecerli sifre girilir.
+* "P_LoginEkrani_SifreAlani" elementini kontrol et
+* Click to element "P_LoginEkrani_SifreAlani"
+* "12123" textini "P_LoginEkrani_SifreAlani" elemente yaz
+#P_<buttonName> butonuna tiklanir.
+* "P_LoginEkrani_GirisYapButonu" elementini kontrol et
+* Click to element "P_LoginEkrani_GirisYapButonu"
+#P_Login oldugu kontrol edilir.
+* "5" saniye bekle
+* "P_AnaEkran_HesapAdi" elementini kontrol et
+* Check if element "P_AnaEkran_HesapAdi" contains text "Test"
+#P_E-Posta alani bos birakilir.
+* "P_LoginEkrani_EpostaAlani" elementini kontrol et
+* Click to element "P_LoginEkrani_EpostaAlani"
+* "" textini "P_LoginEkrani_EpostaAlani" elemente yaz
+#P_Sifre alani bos birakilir.
+* "P_LoginEkrani_SifreAlani" elementini kontrol et
+* Click to element "P_LoginEkrani_SifreAlani"
+* "" textini "P_LoginEkrani_SifreAlani" elemente yaz
+#P_Login olmadigi kontrol edilir ve _Kullanıcı adı ve şifrenizi tam olarak giriniz._ uyari mesajinin goruldugu kontrol edilir.
+* "P_AnaEkran_HesapAdi" elementini kontrol et
+* Check if element "P_AnaEkran_HesapAdi" contains text "Hesabım"
+* "P_LoginEkrani_UyariMesaji" elementini kontrol et
+* Check if element "P_LoginEkrani_UyariMesaji" contains text "Kullanıcı adı ve şifrenizi tam olarak giriniz."
+#P_Formati bozuk E-Posta girilir.
+* "P_LoginEkrani_EpostaAlani" elementini kontrol et
+* Click to element "P_LoginEkrani_EpostaAlani"
+* "asd3qe" textini "P_LoginEkrani_EpostaAlani" elemente yaz
+#P_Login olmadigi kontrol edilir ve _Uyarı: E-Posta Adresi İle Üyelik Bulunamamaktadır._ uyari mesajinin goruldugu kontrol edilir.
+* Check if element "P_AnaEkran_HesapAdi" contains text "Hesabım"
+* "P_LoginEkrani_UyariMesaji" elementini kontrol et
+* Check if element "P_LoginEkrani_UyariMesaji" contains text "Uyarı: E-Posta Adresi İle Üyelik Bulunamamaktadır."
+#P_Kayitli olmayan E-Posta girilir.
+* "P_LoginEkrani_EpostaAlani" elementini kontrol et
+* Click to element "P_LoginEkrani_EpostaAlani"
+* "huseyinakcan.freelance@gmail.com" textini "P_LoginEkrani_EpostaAlani" elemente yaz
+#P_Login olmadigi kontrol edilir ve _Uyarı: E-Posta Adresi İle Üyelik Bulunamamaktadır._ uyari mesajinin goruldugunun kontrolu yapilir.
+* "P_AnaEkran_HesapAdi" elementini kontrol et
+* Check if element "P_AnaEkran_HesapAdi" contains text "Hesabım"
+* "P_LoginEkrani_UyariMesaji" elementini kontrol et
+* Check if element "P_LoginEkrani_UyariMesaji" contains text "Uyarı: E-Posta Adresi İle Üyelik Bulunamamaktadır."
+#P_Geçersiz şifre girilir.
+* "P_LoginEkrani_SifreAlani" elementini kontrol et
+* Click to element "P_LoginEkrani_SifreAlani"
+* "asdasdSds2" textini "P_LoginEkrani_SifreAlani" elemente yaz
+#P_Login olmadigi kontrol edilir ve _Uyarı: Parolanızı hatalı eksik veya yanlış girdiniz._ uyari mesajinin goruldugu kontrol edilir.
+* "P_AnaEkran_HesapAdi" elementini kontrol et
+* Check if element "P_AnaEkran_HesapAdi" contains text "Hesabım"
+* "P_LoginEkrani_UyariMesaji" elementini kontrol et
+* Check if element "P_LoginEkrani_UyariMesaji" contains text "Uyarı: Parolanızı hatalı eksik veya yanlış girdiniz."
+
+
+
+
+
+
+
+
+

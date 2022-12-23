@@ -1,0 +1,108 @@
+[
+  {
+    "key": "T_Sepetim Sayfasi_Sepeti Bosalt PopUp_Sepeti Bosalt butonu",
+    "value": "button[data-href-link=\"https://yeni.krc.com.tr/checkout/cart/clear\"]",
+    "type": "css"
+  },
+
+
+
+
+  {
+    "key": "T_SepetimSayfasi_UrunAdedi",
+    "value": "div[class='col-sm-12 col-lg-8 left']>div[class='orderPreview']>div>span",
+    "type": "css"
+  },
+  {
+    "key": "T_SepetimSayfasi_UrunAdetiArttir",
+    "value": "button[name='positive']",
+    "type": "css"
+  },
+  {
+    "key": "T_SepetimSayfasi_UrunAdetiAzalt",
+    "value": "button[name='negative']",
+    "type": "css"
+  },
+  {
+    "key": "T_SepetimSayfasi_SepetiBosaltLink",
+    "value": "div[class='orderPreview']>div[class='head']>a",
+    "type": "css"
+  },
+  {
+    "key": "T_SepetimSayfasi_SepetiBosaltPopUp",
+    "value": "div[class='modal-header']>h4[id='modal_modalClearCartLabel']",
+    "type": "css"
+  },
+  {
+    "key": "T_SepetimSayfasi_SepetiBosaltButton",
+    "value": "#modalClearCart > div > div > div.modal-body > div > div > button.button.krc-btn.krc-btn-border.closeModal",
+    "type": "css"
+  }
+,
+
+  {
+    "key": "T_SepetimSayfasi_Kuponalani",
+    "value": "div[class='makemesticky'] input[placeholder='kupon kodu giriniz']",
+    "type": "css"
+  },
+  {
+    "key": "T_SepetimSayfasi_Kuponbutonu",
+    "value": "div[class='makemesticky'] button[value='Kuponu Kullan']",
+    "type": "css"
+  },
+  {
+    "key": "T_SepetimSayfasi_Devambutonu",
+    "value": "button[class='krc-btn krc-btn-full setGift']",
+    "type": "css"
+  },
+  {
+    "key": "T_LoginEkrani_GirisYapButonu2",
+    "value": "button[id='login-without-recaptcha']",
+    "type": "css"
+  },
+  {
+    "key": "T_SepetimSayfasi_Kuponalani2",
+    "value": "div[class='makemesticky'] input[type='text']",
+    "type": "css"
+  },
+  {
+    "key": "T_SepetimSayfasi_Kuponbutonu2",
+    "value": "div[class='makemesticky'] button[class='krc-btn krc-btn-full']",
+    "type": "css"
+  },
+  {
+    "key": "T_SepetimSayfasi_FaturaDevambutonu",
+    "value": "div[class='orderNextStep'] button[type='button']",
+    "type": "css"
+  },
+  {
+    "key": "T_SepetimSayfasi_OdemeYontemleri",
+    "value": "//a[normalize-space()='Ödeme Yöntemleri']",
+    "type": "xpath"
+  },
+  {
+    "key": "T_SepetimSayfasi_OdemeYontemleri_Garantipay",
+    "value": "img[alt='GARANTIPAY']",
+    "type": "css"
+  },
+  {
+    "key": "T_SepetimSayfasi_OdemeYontemleri_Obform",
+    "value": "label[for='checkbox1'] span",
+    "type": "css"
+  },
+  {
+    "key": "T_SepetimSayfasi_OdemeYontemleri_Guvenliodeme",
+    "value": "button[type='submit']",
+    "type": "css"
+  },
+  {
+    "key": "T_SepetimSayfasi_OdemeYontemleri_Iyzico",
+    "value": "img[alt='IYZICOPAY']",
+    "type": "css"
+  },
+  {
+    "key": "T_SepetimSayfasi_OdemeYontemleri_Paycell",
+    "value": "img[alt='PAYCELL']",
+    "type": "css"
+  }
+]

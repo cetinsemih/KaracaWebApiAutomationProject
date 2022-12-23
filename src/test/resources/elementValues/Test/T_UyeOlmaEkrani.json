@@ -1,0 +1,127 @@
+[
+  {
+    "key": "T_Hesabim",
+    "value": "div[class='item myAccount']>span[class='imgText']",
+    "type": "css"
+  },
+  {
+    "key": "T_Uye_Ol",
+    "value": "//ul[@id=\"tabs\"]/li[2]",
+    "type": "xpath"
+  },
+  {
+    "key": "T_LoginEkranıAdAlanı",
+    "value": "input[id='inputNameRegister']",
+    "type": "css"
+  },
+  {"key": "T_LoginEkranıAdAlanıUyarı",
+    "value": "span[id='inputNameRegister-error']",
+    "type": "css"
+  },
+  {
+    "key": "T_SoyadAlanı",
+    "value": "input[id='inputSurnameRegister']",
+    "type": "css"
+  },
+  {
+    "key": "T_SoyadAlanıUyarı",
+    "value": "span[id='inputSurnameRegister-error']",
+    "type": "css"
+  }
+,
+  {
+    "key": "T_E_Posta",
+    "value": "input[id='inputEmailRegister']",
+    "type": "css"
+  },
+  {
+    "key": "T_E_PostaUyarı",
+    "value": "span[id='inputEmailRegister-error']",
+    "type": "css"
+  },
+  {"key": "T_Dogum_Tarihi",
+    "value": "input[id='inputBirthDayRegister']",
+    "type": "css"
+  },
+  {"key": "T_GSM",
+    "value": "input[id='inputMobilePhoneLogin']",
+    "type": "css"}
+,
+  {"key": "T_GSMUyarı",
+    "value": "span[id='inputMobilePhoneLogin-error']",
+    "type": "css"}
+,
+  {"key": "T_Sifre",
+    "value": "input[id='passwordCheck']",
+    "type": "css"}
+,
+  {"key": "T_SifreUyarı",
+    "value": "span[id='passwordCheck-error']",
+    "type": "css"}
+,
+  {"key": "T_Cinsiyet",
+    "value": "label[class='male']>input[name='gender_code']",
+    "type": "css"}
+,
+  {"key": "T_Uye_Aydınlatma_Metni",
+    "value": "a[data-target='#uyeAydinlatmaMetniModal']",
+    "type": "css"}
+,
+  {"key": "T_UyeOl_UyeAydinlatmaMetni",
+    "value": "//div[@id=\"uyeAydinlatmaMetniModal\"]//i[@class=\"krc-close-circle\"]",
+    "type": "xpath"}
+,
+  {"key": "T_UyeOl_Bireysel_Kullanici_Sozlesmesi",
+    "value": "//label[@for=\"walletSozlesmesi\"]/span/span/a",
+    "type": "xpath"}
+,
+  {"key": "T_UyeOl_Bireysel_Kullanici_Sozlesmesi_KapatmaButonu",
+    "value": "//div[@id=\"bireyselKullaniciSozlesmesiModal\"]//i[@class=\"krc-close-circle\"]",
+    "type": "xpath"}
+,
+  {"key": "T_UyeOl_Bireysel_Kullanıci_Sozlesmesi_CheckBox",
+    "value": "//label[@for=\"walletSozlesmesi\"]/div",
+    "type": "xpath"}
+,
+  {"key": "T_CuzdanAydinlatmaMetni",
+    "value": "span[class='mt-3']>a[href='javascript:;']",
+    "type": "css"}
+,
+  {"key": "T_CuzdanAydinlatmaMetniKapat",
+    "value": "div[id='cuzdanAydinlatmaMetniModal']>div>div>div>button>i",
+    "type": "css"}
+,
+  {"key": "T_SipayAydinlatmaMetni",
+    "value": "a[data-target='#sipayAydinlatmaMetniModal']",
+    "type": "css"}
+,
+  {"key": "T_SipayAydinlatmaMetniKapat",
+    "value": "div[id='sipayAydinlatmaMetniModal']>div>div>div>button>i",
+    "type": "css"}
+,
+  {"key": "T_UyelikSozlesmesi",
+    "value": "label[for='checkboxUyelikSozlesmesi']>div",
+    "type": "css"}
+,
+  {"key": "T_UyelikSozlesmesiUyarı",
+    "value": "span[id='agree-error']",
+    "type": "css"}
+,
+  {"key": "T_SMS_Iletisim_izni",
+    "value": "label[for='checkboxSmsIzni']>div",
+    "type": "css"}
+,
+  {"key": "T_EPosta_Iletisim_izni",
+    "value": "label[for='checkboxEpostaIzni']>div",
+    "type": "css"}
+,
+  {"key": "T_Arama_Iletisim_izni",
+    "value": "label[for='checkboxAramaIzni']>div",
+    "type": "css"}
+,
+  {"key": "T_Uye_Olma_Butonu",
+    "value": "button[id='reg-submit-without-recaptch']",
+    "type": "css"
+  }
+
+]

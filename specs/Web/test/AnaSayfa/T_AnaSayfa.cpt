@@ -1,0 +1,230 @@
+# T_Ana Sayfa açilir.
+* "https://yeni.krc.com.tr/" adresine git
+* Şu anki url "https://yeni.krc.com.tr/" ile aynı mı
+* P_Cerezler kapatilir
+//*T_Cark pop-upi kapatilir.
+
+# T_Cark pop-upi kapatilir.
+* "P_CarkPopUp_CloseButton" elementi varsa tıkla "1"
+
+# T_Arama alaninda <ara> kelimesi aratilir.
+* "T_AnaEkran_AramaAlani" elementinin var olduğu kontrol edilir
+* <ara> elementine "T_AnaEkran_AramaAlani" değerini yaz
+* "1" saniye bekle
+* "T_AnaEkran_AramaButonu" elementinin var olduğu kontrol edilir
+* "T_AnaEkran_AramaButonu" elementine tıkla
+
+# T_Arama alaninda <ara> kelimesi aratilir. Arama sonucu kontrol edilir.
+* "P_AnaEkran_AramaAlani" elementinin var olduğu kontrol edilir
+* <ara> elementine "P_AnaEkran_AramaAlani" değerini yaz
+* "1" saniye bekle
+* "P_AnaEkran_AramaButonu" elementine tıkla
+* "1" saniye bekle
+* "P_AnaEkran_AramaSayfasi" elementinin text değeri <ara> değerini içeriyor mu
+* "P_AnaEkran_AramaSayfasi" elementinin text değeri "' için arama sonuçları" değerini içeriyor mu
+
+# T_Cerezler kapatilir
+* "P_AnaSayfa_CerezTamamButon" elementinin var olduğu kontrol edilir
+* "P_AnaSayfa_CerezTamamButon" elementine tıkla
+
+# T_Ana Sayfa'ya don
+* "P_AnaSayfa_Karaca Logo" elementinin var olduğu kontrol edilir
+* "500" milisaniye bekle
+* "P_AnaSayfa_Karaca Logo" elementine tıkla
+
+
+# T_Ana Sayfa_Sepetim Butonuna tikla
+* "P_AnaSayfa_Sepetim Butonu" elementinin var olduğu kontrol edilir
+* "P_AnaSayfa_Sepetim Butonu" elementine tıkla
+
+//Kategori Başlıkları
+# T_Ana Sayfa Sofra ana basligina tiklanir.
+* "P_AnaSayfa_SofraAnaBasligi" elementinin var olduğu kontrol edilir
+* "P_AnaSayfa_SofraAnaBasligi" elementine tıkla
+
+# T_Ana Sayfa Mutfak ana basligina tiklanir.
+* "P_AnaSayfa_MutfakAnaBasligi" elementinin var olduğu kontrol edilir
+* "P_AnaSayfa_MutfakAnaBasligi" elementine tıkla
+
+
+
+-----Hesabım Butonu
+# T_Ana Sayfa_Hesabim butonuna tıklanır
+* "P_AnaEkran_HesabimButonu" elementinin var olduğu kontrol edilir
+* "P_AnaEkran_HesabimButonu" elementine tıkla
+
+# T_Ana Sayfa_Hesabim butonuna varsa tıklanır
+* "P_AnaEkran_HesabimButonu" elementinin var olduğu kontrol edilir
+* "P_AnaEkran_HesabimButonu" elementi varsa tıkla "1"
+
+# T_Ana Sayfa_Hesabim_Giris Yap butonuna tiklanir.
+/* "P_AnaEkran_HesabimButonu" elementin üstünde bekle
+/* "P_AnaSayfa_Hesabim_GirisYap" elementine tikla
+* "P_AnaEkran_HesabimButonu" dropdown elementinin "0" indexine tıkla
+
+# T_Ana Sayfa_Hesabim_Uye Ol butonuna tiklanir.
+/* "P_AnaEkran_HesabimButonu" elementin üstünde bekle
+/* "P_AnaSayfa_Hesabim_UyeOl" elementine tikla
+* "P_AnaEkran_HesabimButonu" dropdown elementinin "1" indexine tıkla
+
+# T_Ana Sayfa_Hesabim_Sparislerim butonuna tiklanir.
+/* "P_AnaEkran_HesabimButonu" elementin üstünde bekle
+/* "P_AnaSayfa_Hesabim_Siparislerim" elementine tikla
+* "P_AnaEkran_HesabimButonu" dropdown elementinin "2" indexine tıkla
+
+# T_Ana Sayfa_Hesabim_Listelerim butonuna tiklanir.
+/* "P_AnaEkran_HesabimButonu" elementin üstünde bekle
+/* "P_AnaSayfa_Hesabim_Listelerim" elementine tikla
+* "P_AnaEkran_HesabimButonu" dropdown elementinin "3" indexine tıkla
+
+# T_Ana Sayfa_Hesabim_Adreslerim butonuna tiklanir.
+/* "P_AnaEkran_HesabimButonu" elementin üstünde bekle
+/* "P_AnaSayfa_Hesabim_Adreslerim" elementine tikla
+* "P_AnaEkran_HesabimButonu" dropdown elementinin "4" indexine tıkla
+
+# T_Ana Sayfa_Hesabim_Taleplerim butonuna tiklanir.
+/* "P_AnaEkran_HesabimButonu" elementin üstünde bekle
+/* "P_AnaSayfa_Hesabim_Taleplerim" elementine tikla
+* "P_AnaEkran_HesabimButonu" dropdown elementinin "5" indexine tıkla
+
+# T_Ana Sayfa_Hesabim_Indirim Kuponlarim butonuna tiklanir.
+* "P_AnaEkran_HesabimButonu" elementin üstünde bekle
+* "P_AnaSayfa_Hesabim_IndirimKuponlarim" elementine tikla
+
+# T_Ana Sayfa_Hesabim_Favorilerim butonuna tiklanir.
+* "P_AnaEkran_HesabimButonu" elementin üstünde bekle
+* "P_AnaSayfa_Hesabim_Favorilerim" elementine tikla
+
+# T_Ana Sayfa_Hesabim_Cikis Yap butonuna tiklanir.
+* "P_AnaEkran_HesabimButonu" elementin üstünde bekle
+* "P_AnaSayfa_Hesabim_CikisYap" elementine tikla
+
+# T_Ana Sayfa_Hesabim_Sifre Degistirme butonuna tiklanir.
+* "P_AnaEkran_HesabimButonu" elementin üstünde bekle
+* "P_AnaSayfa_Hesabim_SifreYenileme" elementine tikla
+
+# T_Ana Sayfa_Hesabim_Yedek Parca Talep Formu butonuna tiklanir.
+* "P_AnaEkran_HesabimButonu" elementin üstünde bekle
+* "P_AnaSayfa_Hesabim_YedekParcaTalepFormu" elementine tikla
+
+
+
+//Ulaş
+#T_anasayfa_sofra_sekmesine_tiklanir
+*"T_LogOut_AnaSayfa_SofraAlani" elementini kontrol et
+*"T_LogOut_AnaSayfa_SofraAlani" elementine tikla
+#T_sofra_grubu_yemek_takimlari_alanina_tiklanir
+*"T_LogOut_AnaSayfa_SofraAlani_YemekTakimlariAlani" elementini kontrol et
+*"T_LogOut_AnaSayfa_SofraAlani_YemekTakimlariAlani" elementine tikla
+#T_yemek_takimlari_listesinden_bir_urune_tiklanir
+*"T_LogOut_AnaSayfa_SofraAlanı_YemekTakımlarıAlanı_Urun" elementini kontrol et
+*"T_LogOut_AnaSayfa_SofraAlanı_YemekTakımlarıAlanı_Urun" elementine tikla
+#T_secilen_urun_sepete_eklenir
+*"T_LogOut_AnaSayfa_SofraAlanı_YemekTakımlarıAlanı_Urun_SepeteEkle" elementini kontrol et
+*"T_LogOut_AnaSayfa_SofraAlanı_YemekTakımlarıAlanı_Urun_SepeteEkle" elementine tikla
+#T_alisverise_devam_et_butonuna_tiklanir
+*"T_LogOut_Alisverise_devam_et" elementini kontrol et
+*"T_LogOut_Alisverise_devam_et" elementine tikla
+#T_anasayfa_mutfak_sekmesine_tiklanir
+*"T_LogOut_AnaSayfa_Mutfak" elementini kontrol et
+*"T_LogOut_AnaSayfa_Mutfak" elementine tikla
+#T_anasayfa_mutfak_grubu_kontrol_edilir
+* Şuanki URL "T_LogOut_AnaSayfa_MutfakAlanıKontrol" değerini içeriyor mu kontrol et
+#T_mutfak_grubu_cezve_takimlari_alanina_tiklanir
+*"T_LogOut_AnaSayfa_MutfakAlanı_UrunKatalog" elementini kontrol et
+*"T_LogOut_AnaSayfa_MutfakAlanı_UrunKatalog" elementine tikla
+#T_cezve_takimlari_urun_listesinden_bir_urune_tiklanir
+*"T_LogOut_AnaSayfa_MutfakAlanı_UrunKatalog_Urun" elementini kontrol et
+*"T_LogOut_AnaSayfa_MutfakAlanı_UrunKatalog_Urun" elementine tikla
+#T_urun_sepete_eklenir
+*"T_LogOut_AnaSayfa_MutfakAlanı_UrunKatalog_Urun_SepeteEkle" elementini kontrol et
+*"T_LogOut_AnaSayfa_MutfakAlanı_UrunKatalog_Urun_SepeteEkle" elementine tikla
+#T_sepete_gidilir
+*"T_LogOut_AnaSayfa_SepeteGit" elementini kontrol et
+*"T_LogOut_AnaSayfa_SepeteGit" elementine tikla
+#T_sepetim_devam_et_butonuna_tiklanir
+*"T_Sepetim_DevamEt" elementini kontrol et
+*"T_Sepetim_DevamEt" elementine tikla
+#T_login_ekranı_görüntülenir
+*Şuanki URL "https://yeni.krc.com.tr/account/login?checkout" değerini içeriyor mu kontrol et
+# T_hesabim_elementinin_uzerine_gelinir
+*"T_AnaSayfa_Hesabim" elementin üstünde bekle
+# T_cikis_yap_butonu_kontrol_edilir
+*"T_AnaSayfa_Hesabim" elementin üstünde bekle
+*"1" saniye bekle
+*"T_Cikis_yap" elementi yokmu kontrol et
+#T_anasayfa_kucuk_ev_aletleri_sekmesine_tiklanir
+*"T_LogOut_AnaSayfa_Kucuk_Ev_Aletleri" elementini kontrol et
+*"T_LogOut_AnaSayfa_Kucuk_Ev_Aletleri" elementine tikla
+#T_anasayfa_kucuk_ev_aletleri_grubu_kontrol_edilir
+*Şuanki URL "T_LogOut_AnaSayfa_Kucuk_Ev_Aletleri_kontrol" değerini içeriyor mu kontrol et
+#T_kucuk_ev_aletleri_gida_hazirlama_menusunde_saga_kaydirilir
+*"T_LogOut_Kucuk_Ev_Aletleri_Gida_Hazirlama_Sonraki" elementini kontrol et
+*"T_LogOut_Kucuk_Ev_Aletleri_Gida_Hazirlama_Sonraki" elementine tikla
+#T_gida_hazirlama_urun_listesi_acilir
+*"T_LogOut_Gida_Hazirlama_Urun_Katalog" elementini kontrol et
+*"T_LogOut_Gida_Hazirlama_Urun_Katalog" elementine tikla
+#T_gida_hazirlama_urun_listesinden_bir_urune_tiklanir
+*"T_LogOut_AnaSayfa_Kucuk_Ev_Aletleri_Gida_Hazirlama_UrunKatalog_Urun" elementini kontrol et
+*"T_LogOut_AnaSayfa_Kucuk_Ev_Aletleri_Gida_Hazirlama_UrunKatalog_Urun" elementine tikla
+#T_urun_favorilere_eklenir
+*"T_LogOut_AnaSayfa_Kucuk_Ev_Aletleri_Gida_Hazirlama_UrunKatalog_Urun_Favorilere_Ekle" elementini kontrol et
+*"T_LogOut_AnaSayfa_Kucuk_Ev_Aletleri_Gida_Hazirlama_UrunKatalog_Urun_Favorilere_Ekle" elementine tikla
+#T_anasayfa_ev_tekstili_sekmesine_tiklanir
+*"T_LogOut_AnaSayfa_Ev_Tekstili" elementini kontrol et
+*"T_LogOut_AnaSayfa_Ev_Tekstili" elementine tikla
+#T_anasayfa_ev_tekstili_sayfası_kontrol_edilir
+*Şuanki URL "T_LogOut_AnaSayfa_Ev_Tekstili_Kontrol" değerini içeriyor mu kontrol et
+#T_ev_tekstili_yatak_odası_menusunde_saga_kaydirilir
+*"T_LogOut_AnaSayfa_Ev_Tekstili_Yatak_Odası_Menusu_Sonraki" elementini kontrol et
+*"T_LogOut_AnaSayfa_Ev_Tekstili_Yatak_Odası_Menusu_Sonraki" elementine tikla
+#T_ev_tekstili_yatak_odası_menusunde_sola_kaydirilir
+*"T_LogOut_AnaSayfa_Ev_Tekstili_Yatak_Odası_Menusu_Önceki" elementini kontrol et
+*"T_LogOut_AnaSayfa_Ev_Tekstili_Yatak_Odası_Menusu_Önceki" elementine tikla
+#T_bebek_battaniyeleri_urun_katalogu_acilir
+*"T_LogOut_Bebek_Battaniyeleri_Urun_Katalog" elementini kontrol et
+*"T_LogOut_Bebek_Battaniyeleri_Urun_Katalog" elementine tikla
+#T_bebek_battaniyeleri_urun_katalogu_kontrol_edilir
+*Şuanki URL "T_LogOut_Bebek_Battaniyeleri_Urun_Katalog_Kontrol" değerini içeriyor mu kontrol et
+#T_urun_katalogunda_battaniye_arama_filtresi_konulur
+*"T_LogOut_Bebek_Battaniyeleri_Urun_Katalog_Battaniye_Filtreleme" elementini kontrol et
+*"T_LogOut_Bebek_Battaniyeleri_Urun_Katalog_Battaniye_Filtreleme" elementine tikla
+#T_urun_katalogunda_fiyat_filtresi_konulur
+*"T_LogOut_Bebek_Battaniyeleri_Urun_Katalog_Fiyat_Filtreleme" elementini kontrol et
+*"T_LogOut_Bebek_Battaniyeleri_Urun_Katalog_Fiyat_Filtreleme" elementine tikla
+#T_urun_katalogunda_fiyat_filtresi_temizlenir
+*"T_LogOut_Bebek_Battaniyeleri_Urun_Katalog_Fiyat_Filtre_temizleme" elementini kontrol et
+*"T_LogOut_Bebek_Battaniyeleri_Urun_Katalog_Fiyat_Filtre_temizleme" elementine tikla
+#T_anasayfa_hali_sekmesine_tiklanir
+*"T_LogOut_AnaSayfa_Hali" elementini kontrol et
+*"T_LogOut_AnaSayfa_Hali" elementine tikla
+#T_hali_urun_katalogu_kontrol_edilir
+*Şuanki URL "T_LogOut_AnaSayfa_Hali_Urun_Katalog_Kontrol" değerini içeriyor mu kontrol et
+#T_hali_urun_katalogu_hizli_teslimat_urunleri_secenegine_tiklanir
+*"T_LogOut_AnaSayfa_Hali_Urun_Katalog_Hizli_Teslimat_Urunleri" elementini kontrol et
+*"T_LogOut_AnaSayfa_Hali_Urun_Katalog_Hizli_Teslimat_Urunleri" elementine tikla
+#T_hali_urun_katalogu_hizli_teslimat_urunleri_il_konumunda<sehir>.il_secilir
+*"T_LogOut_Hali_Urun_Katalog_Hizli_Teslimat_Urunleri_Konum_Sec" elementini kontrol et
+*"T_LogOut_Hali_Urun_Katalog_Hizli_Teslimat_Urunleri_Konum_Sec" elementine tikla
+*"T_LogOut_Hali_Urun_Katalog_Hizli_Teslimat_Urunleri_il_Sec" li elementlerden <sehir>. olana tikla ve stringini listeye kaydet
+#T_hali_urun_katalogu_hizli_teslimat_urunleri_ilce_konumunda<semt>.ilce_secilir
+*"T_LogOut_Hali_Urun_Katalog_Hizli_Teslimat_Urunleri_Konum_Ilce_Sec" elementini kontrol et
+*"T_LogOut_Hali_Urun_Katalog_Hizli_Teslimat_Urunleri_Konum_Ilce_Sec" elementine tikla
+*"T_LogOut_Hali_Urun_Katalog_Hizli_Teslimat_Urunleri_Ilce_Sec" li elementlerden <semt>. olana tikla ve stringini listeye kaydet
+#T_hali_urun_katalogu_hizli_teslimat_urunleri_konum_secimi_kaydedilir
+*"T_LogOut_Hali_Urun_Katalog_Hizli_Teslimat_Urunleri_Konum_Secimi_Kaydet" elementini kontrol et
+*"T_LogOut_Hali_Urun_Katalog_Hizli_Teslimat_Urunleri_Konum_Secimi_Kaydet" elementine tikla
+#T_anasayfa_gida_sekmesine_tiklanir
+*"T_LogOut_Gida" elementini kontrol et
+*"T_LogOut_Gida" elementine tikla
+
+//Batuhan
+#T_AnaSayfa_Hesabim butonuna tiklanir.
+* "T_AnaEkran_HesabimButonu" elementini kontrol et
+* Click to element "T_AnaEkran_HesabimButonu"
+
+#T_AnaSayfa_Hesap adinin <hesapAdi> oldugu gorulur.
+* "T_AnaEkran_HesapAdi" elementini kontrol et
+* Sayfa uzerinde "T_AnaEkran_HesapAdi" objesi goruntulenene kadar bekle
+* Check if element "T_AnaEkran_HesapAdi" contains text <hesapAdi>
+

@@ -1,0 +1,32 @@
+# T_urun_yorum_popup 'Urunle ilgili yorumum var.' linkine tiklanir.
+* Sayfa uzerinde "SiparisDetay_UrunYorumLink" objesi goruntulenene kadar bekle
+* "SiparisDetay_UrunYorumLink" elementini kontrol et
+* "SiparisDetay_UrunYorumLink" elementine tikla
+
+# T_urun_yorum_popup acildigi kontrol edilir.
+* Sayfa uzerinde "UrunYorumPopUp_PopUpHeader" objesi goruntulenene kadar bekle
+* "UrunYorumPopUp_PopUpHeader" elementini kontrol et
+* "UrunYorumPopUp_PopUpHeader" elementi "Ürünü Değerlendir" değerini içeriyor mu kontrol et
+
+# T_urun_yorum_popup (<derece>+1) yildiz verilir.
+* "UrunYorumPopUp_DerecelendirmeYildizlar" li elementlerden <derece>. olana tikla ve stringini listeye kaydet
+
+# T_urun_yorum_popup 'Yorum Yap' butonuna tiklanir.
+* "UrunYorumPopUp_YorumYapButton" elementini kontrol et
+* "UrunYorumPopUp_YorumYapButton" elementine tikla
+
+# T_urun_yorum_popup yorum alanina <text> girilir.
+* "UrunYorumPopUp_YorumTextArea" elementini kontrol et
+* "UrunYorumPopUp_YorumTextArea" elementine tikla
+* <text> textini "UrunYorumPopUp_YorumTextArea" elemente yaz
+
+# T_urun_yorum_popup resim eklenir.
+* "UrunYorumPopUp_DosyaSecButton" elementini kontrol et
+* "UrunYorumPopUp_DosyaSecButton" elementin üstünde bekle
+//* "UrunYorumPopUp_DosyaSecButton" a js ile tıkla
+* "UrunYorumPopUp_DosyaSecButton" elementine tikla
+
+# T_urun_yorum_popup uyari mesajinin <text> textini icerdigi kontrol edilir.
+* "UrunYorumPopUp_UyariMesaji" elementini kontrol et
+* "UrunYorumPopUp_UyariMesaji" elementi <text> değerini içeriyor mu kontrol et
+

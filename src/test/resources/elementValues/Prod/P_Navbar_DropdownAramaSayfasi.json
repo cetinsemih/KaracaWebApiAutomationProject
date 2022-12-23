@@ -1,0 +1,12 @@
+[
+  {
+    "key": "P_Navbar_DropdownAramaSayfasi_IlkUrun_FavButonu",
+    "value": "div>div[class='productWrap']>a[data-product-id=\"6733662\"]",
+    "type": "css"
+  },
+  {
+    "key": "P_Navbar_DropdownAramaSayfasi_IkinciUrun_FavButonu",
+    "value": "div>div[class=\"productWrap\"]>a[data-product-id=\"5902280\"]",
+    "type": "css"
+  }
+]

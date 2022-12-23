@@ -1,0 +1,7 @@
+[
+  {
+    "key": "P_UrunDetaySayfasi_SepeteEkleButonu",
+    "value": "//a[@id=\"addToCart\"]",
+    "type": "xpath"
+  }
+]

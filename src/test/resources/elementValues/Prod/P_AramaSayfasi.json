@@ -1,0 +1,119 @@
+[
+  {
+    "key": "P_AramaSayfasi_SiralamaDropDownMenu",
+    "value": "button[id=\"filterSortOrder\"][aria-haspopup]",
+    "type": "css"
+  }
+,
+  {
+    "key": "P_AramaSayfasi_SiralamaDropDownMenu_OnerilenSiralama",
+    "value": "div[class=\"dropdown shortList show\"]>div>a[data-value=\"search_priority\"]",
+    "type": "css"
+  }
+,
+  {
+    "key": "P_AramaSayfasi_SiralamaDropDownMenu_EnDusukFiyat",
+    "value": "div[class=\"dropdown shortList show\"]>div>a[data-value=\"p.price\"][data-order=\"ASC\"]",
+    "type": "css"
+  }
+,
+  {
+    "key": "P_AramaSayfasi_SiralamaDropDownMenu_EnYuksekFiyat",
+    "value": "div[class=\"dropdown shortList show\"]>div>a[data-value=\"p.price\"][data-order=\"DESC\"]",
+    "type": "css"
+  }
+,
+  {
+    "key": "P_AramaSayfasi_SiralamaDropDownMenu_EnYeniler",
+    "value": "div[class=\"dropdown shortList show\"]>div>a[data-value=\"p.date_available\"]",
+    "type": "css"
+  }
+,
+  {
+    "key": "P_AramaSayfasi_SiralamaDropDownMenu_EnCokSatan",
+    "value": "div[class=\"dropdown shortList show\"]>div>a[data-value=\"sales_avg\"]",
+    "type": "css"
+  }
+,
+  {
+    "key": "P_AramaSayfasi_SiralamaDropDownMenu_EnCokBegenilen",
+    "value": "div[class=\"dropdown shortList show\"]>div>a[data-value=\"pr.total_wishlist\"]",
+    "type": "css"
+  }
+,
+  {
+    "key": "P_AramaSayfasi_SiralamaDropDownMenu_EnCokDegerlendirilenler",
+    "value": "div[class=\"dropdown shortList show\"]>div>a[data-value=\"p.total_review\"]",
+    "type": "css"
+  }
+,
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "key": "P_AramaSayfasi_IlkUrun_FavButonu",
+    "value": "div[class='productWrap']>a[data-product-id=\"3562032\"]",
+    "type": "css"
+  },
+  {
+    "key": "P_AramaSayfasi_IkinciUrun_FavButonu",
+    "value": "div[class='productWrap']>a[data-product-id=\"3547275\"]",
+    "type": "css"
+  },
+  {
+    "key": "P_Cookie_AramaSayfasi",
+    "value": "/html/body/div[3]/a",
+    "type": "xpath"
+  },
+  {
+    "key": "P_FiltreliAramaSayfasi_OdaTipi",
+    "value": "//ul[@id=\"product-attr-list-73894\"]/li/label/div",
+    "type": "xpath"
+  },
+  {
+    "key": "P_FiltreliAramaSayfasi_IlgiliKategoriler",
+    "value": "//ul[@id=\"product-attr-list-52\"]/li/label/div",
+    "type": "xpath"
+  },
+  {
+    "key": "P_AramaSayfasi_FiltreSalonCheckboxi",
+    "value": "//*[@id=\"product-attr-list-73894\"]/li[2]/label/span",
+    "type": "xpath"
+  },
+
+  {
+    "key": "P_AramaSayfasi_FiltreSalonOdaHalisiCheckboxi",
+    "value": "li[class]>label[for=\"cbx-filter-salonoda-halisi-0-52\"]",
+    "type": "css"
+  },
+  {
+    "key": "P_AramaSayfasi_DropdownButtonu",
+    "value": "div[class=\"changeGrid\"]>div[class=\"dropdown shortList\"]>button",
+    "type": "css"
+  },
+  {
+    "key": "P_AramaSayfasi_DropdownButtonu_SecilenSecenek",
+    "value": "div[class=\"dropdown-menu category_sort_order show\"]>a",
+    "type": "css"
+  },
+  {
+    "key": "P_Anasayfa_Favoriler",
+    "value": "#account_header > div:nth-child(2) > img",
+    "type": "css"
+  },
+  {
+    "key": "P_AramaEkrani_GidilenUrun",
+    "value": "div[data-productid=\"6653223\"]>div>a[href=\"https://www.karaca.com/urun/cookplus-flux-1lt-silikon-canta\"]>div[class='inner']>span[class='text']",
+    "type": "css"
+  }
+
+]

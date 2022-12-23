@@ -1,0 +1,53 @@
+# T_Prod ortaminda arama kutusu ile urun aranir.
+* "P_AnaEkran_AramaAlani" elementini kontrol et
+//* Click to element "P_AnaEkran_AramaAlani"
+//* Cark pop-upi kapatilir.
+* "P_AnaEkran_AramaAlani" elementine tikla
+* "Globe 6 kişilik" textini "P_AnaEkran_AramaAlani" elemente yaz
+* "P_AnaEkran_AramaButonu" elementini kontrol et
+* Click to element "P_AnaEkran_AramaButonu"
+# T_Prod ortaminda arama sayfasinin acildigi kontrol edilir.
+* "P_AnaEkran_AramaSayfasi" elementi "lobe 6 kişilik' için arama sonuçları" değerini içeriyor mu kontrol et
+# T_Prod ortaminda navbar menude aranacak urun ile ilgili linke tiklanir.
+* "P_NavbarHaliLinki" elementini kontrol et
+* Click to element "P_NavbarHaliLinki"
+# T_Prod ortaminda arama sayfasinda soldaki filtreler kismindan Salon filtresi secilir.
+* "P_AramaSayfasi_FiltreSalonCheckboxi" elementini kontrol et
+* Click to element "P_AramaSayfasi_FiltreSalonCheckboxi"
+# T_Prod ortaminda arama sayfasinda soldaki filtreler kismindan Salon-Oda Halisi filtresi secilir.
+* "P_AramaSayfasi_FiltreSalonOdaHalisiCheckboxi" elementini kontrol et
+* Sayfa uzerinde "P_AramaSayfasi_FiltreSalonOdaHalisiCheckboxi" objesi goruntulenene kadar bekle
+//* Click to element "P_AramaSayfasi_FiltreSalonOdaHalisiCheckboxi"
+* "2" saniye bekle
+* "P_AramaSayfasi_FiltreSalonOdaHalisiCheckboxi" elementine tikla
+# T_Prod ortaminda acilan arama sayfasinda sagdaki dropdown menuden secim yapilir.
+* "P_AramaSayfasi_DropdownButtonu" elementini kontrol et
+* Click to element "P_AramaSayfasi_DropdownButtonu"
+* T_Cark pop-upi kapatilir.
+* Click to element "P_AramaSayfasi_DropdownButtonu"
+* "P_AramaSayfasi_DropdownButtonu_SecilenSecenek" elementini kontrol et
+* Sayfa uzerinde "P_AramaSayfasi_DropdownButtonu_SecilenSecenek" objesi goruntulenene kadar bekle
+* Click to element "P_AramaSayfasi_DropdownButtonu_SecilenSecenek"
+# T_Prod ortaminda arama sayfasindaki Cookie kapatilir.
+* "P_Cookie_AramaSayfasi" elementini kontrol et
+* "/html/body/div[3]/a" a js ile tıkla
+# T_Prod ortaminda gecerli login islemi yapilir.
+    *Karaca prod anasayfasina gidilir.
+    *Hesabim butonuna tiklanir.
+    *Gecerli E-Posta girilir.
+//  *Cark pop-upi kapatilir.
+    *Gecerli sifre girilir.
+    *"Giriş Yap" butonuna tiklanir.
+    *Login oldugu kontrol edilir.
+# T_Prod ortaminda Favorilerim sayfasina gidilir.
+* "P_Anasayfa_Favoriler" elementini kontrol et
+* "P_Anasayfa_Favoriler" elementine tikla
+# T_Prod ortaminda Favorilerim sayfasinin acildigi kontrol edilir.
+* "P_Favoriler_Sayfasi_HeadTitle" elementini kontrol et
+* "P_Favoriler_Sayfasi_HeadTitle" elementi "Favorilerim" değerini içeriyor mu kontrol et
+# T_Prod ortaminda Favorilerim sayfasinda istenen urunun urun sayfasina gidilir.
+* "P_Favoriler_Sayfasi_ArananUrun" elementini kontrol et
+* "P_Favoriler_Sayfasi_ArananUrun" elementine tikla
+# T_Prod ortaminda Favorilerim sayfasinda istenen urunun urun sayfasina gidildigi kontrol edilir.
+* "P_Favoriler_UrunSayfasi_ArananUrun" elementini kontrol et
+* "P_Favoriler_UrunSayfasi_ArananUrun" elementi "Overcut 6 Par" değerini içeriyor mu kontrol et

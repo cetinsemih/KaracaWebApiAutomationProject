@@ -1,0 +1,7 @@
+# T_Listelenen Urunlerden <sira>. Urunun detay sayfası acilir.
+* Şuanki URL "https://yeni.krc.com.tr/product" değerini içeriyor mu kontrol et
+* "P_UrunSayfasi_ListelenenUrunler" li elementlerden <sira>. olana tikla ve stringini listeye kaydet
+* Şuanki URL "https://yeni.krc.com.tr/urun" değerini içeriyor mu kontrol et
+/* "P_UrunDetaySayfasi_SepeteEkleButonu" elementini kontrol et
+
+

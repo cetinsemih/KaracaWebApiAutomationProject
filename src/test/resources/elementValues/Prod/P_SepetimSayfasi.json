@@ -1,0 +1,63 @@
+[
+  {
+    "key": "P_SepetimSayfasi_UrunAdedi",
+    "value": "//div[@class=\"orderPreview\"]/div/span",
+    "type": "xpath"
+  },
+  {
+    "key": "P_SepetimSayfasi_UrunAdetiArttir",
+    "value": "button[name='positive']",
+    "type": "css"
+  },
+  {
+    "key": "P_SepetimSayfasi_UrunAdetiAzalt",
+    "value": "button[name='negative']",
+    "type": "css"
+  },
+  {
+    "key": "P_SepetimSayfasi_UrunuSepettenKaldir",
+    "value": "div[class='orderPreview']>div[class='head']>a",
+    "type": "css"
+  },
+  {
+    "key": "P_SepetimSayfasi_SepetBosYazi",
+    "value": "div[class=\"noProduct\"]>P[class=\"text-basket\"]",
+    "type": "css"
+  },
+  {
+    "key": "P_SepetimSayfasi_SepetiBosaltButton",
+    "value": "#modalClearCart > div > div > div.modal-body > div > div > button.button.krc-btn.krc-btn-border.closeModal",
+    "type": "css"
+  }
+,
+  {
+    "key": "P_Sepetim Sayfasi_Sepeti Bosalt PopUp_Sepeti Bosalt butonu",
+    "value": "button[data-href-link=\"https://www.karaca.com/checkout/cart/clear\"]",
+    "type": "css"
+  }
+,
+  {
+    "key": "P_Sepetim Sayfasi_Sepeti Bosalt PopUp_vazgec butonu",
+    "value": "//div[@id=\"modalClearCart\"]/div/div/div[2]/div/div/button[1]",
+    "type": "xpath"
+  }
+,
+  {
+    "key": "P_Sepetim Sayfasi_Urun datay alani - Sil butonu",
+    "value": "//div[@class=\"delete d-none d-sm-block\"]",
+    "type": "xpath"
+  }
+,
+  {
+    "key": "P_Sepetim Sayfasi_Sepeti bosalt butonu",
+    "value": "//div[@class=\"head\"]/a[@data-target=\"#modalClearCart\"]",
+    "type": "xpath"
+  }
+,
+  {
+    "key": "P_Sepetim Sayfasi_Devam et butonu",
+    "value": "//div[@class=\"orderNextStep\"]",
+    "type": "xpath"
+  }
+
+]

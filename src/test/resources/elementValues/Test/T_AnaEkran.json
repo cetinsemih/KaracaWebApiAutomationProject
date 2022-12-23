@@ -1,0 +1,286 @@
+[
+  {
+    "key": "T_AnaEkran_AramaSayfasi",
+    "value": "h1[class='inherit']",
+    "type": "css"
+  },
+  {
+    "key": "T_AramaEkrani_GidilenUrun",
+    "value": "a[title='Cookplus Flux 1lt Ayarlanabilir Silikon Çanta'] span[class='title']",
+    "type": "css"
+  },
+  {
+    "key": "T_AnaEkran_HesabimButonu",
+    "value": "img[alt='Hesabım']",
+    "type": "css"
+  },
+  {
+    "key": "T_AnaEkran_HesapAdi",
+    "value": "div[id='account_header']>div[class='item myAccount']>span",
+    "type": "css"
+  },
+  {
+    "key": "T_CarkPopUp_CloseButton",
+    "value": "div[id='wrap-close-button-1543162318000']>div[id='close-button-1543162318000']",
+    "type": "css"
+  },
+  {
+    "key": "T_AnaEkran_AramaAlani",
+    "value": "div[class=\"searchWrap\"]>form[id=\"mobile-search\"]>input[name=\"q\"]",
+    "type": "css"
+  },
+  {
+    "key": "T_AnaEkran_AramaButonu",
+    "value": "div.searchWrap>a>img[src=\"/catalog/view/assets/images/icons/search.svg\"]",
+    "type": "css"
+  },
+  {
+    "key": "T_AnaEkran_AramaSayfasi",
+    "value": "h1[class='inherit']",
+    "type": "css"
+  },
+  {
+    "key": "T_Anasayfa_Favoriler",
+    "value": "#account_header > div:nth-child(2) > img",
+    "type": "css"
+  }
+  ,
+
+
+
+
+  {
+    "key": "T_LogOut_AnaSayfa_SofraAlani",
+    "value": "nav>a[data-id='188']",
+    "type": "css"
+  }
+,
+  {
+    "key": "T_LogOut_AnaSayfa_SofraAlani_YemekTakimlariAlani",
+    "value": "img[alt='6 Kişilik Yemek Takımı']",
+    "type": "css"
+  }
+,
+  {
+    "key": "T_LogOut_AnaSayfa_SofraAlanı_YemekTakımlarıAlanı_Urun",
+    "value": "a[data-productid='4004188']>div>span>span[class=\"title\"]",
+    "type": "css"
+  }
+,
+  {
+    "key": "T_LogOut_AnaSayfa_SofraAlanı_YemekTakımlarıAlanı_Urun_SepeteEkle",
+    "value": "div[class='w-100']>a>span[class=\"productDetailAddCartText\"]",
+    "type": "css"
+  }
+,
+  {
+    "key": "T_LogOut_Alisverise_devam_et",
+    "value": "button[class=\"krc-btn krc-btn-border mr-1 keepShopping\"]",
+    "type": "css"
+  }
+,
+  {
+    "key": "T_LogOut_AnaSayfa_Mutfak",
+    "value": "nav>a[data-id='189']",
+    "type": "css"
+  }
+
+,
+  {
+    "key": "T_LogOut_AnaSayfa_MutfakAlanıKontrol",
+    "value": "span[class=\"item menu\"]",
+    "type": "css"
+  }
+,
+  {
+    "key": "T_LogOut_AnaSayfa_MutfakAlanı_UrunKatalog",
+    "value": "img[alt='Cezve Takımı']",
+    "type": "css"
+  }
+,
+  {
+    "key": "T_LogOut_AnaSayfa_MutfakAlanı_UrunKatalog_Urun",
+    "value": "a[data-productid='6737998']>div>span>span[class='title']",
+    "type": "css"
+  }
+,
+  {
+    "key": "T_LogOut_AnaSayfa_MutfakAlanı_UrunKatalog_Urun_SepeteEkle",
+    "value": "div[class='w-100']>a>span[class=\"productDetailAddCartText\"]",
+    "type": "css"
+  }
+,
+  {
+    "key": "T_LogOut_AnaSayfa_SepeteGit",
+    "value": "#multipleAddCart > div > div.krc-modal-body > div.btns > button.krc-btn.krc-btn-full",
+    "type": "css"
+  }
+,
+  {
+    "key": "T_Sepetim_DevamEt",
+    "value": "button[class=\"krc-btn krc-btn-full setGift\"]",
+    "type": "css"
+  }
+,
+  {
+    "key": "T_AnaSayfa_Hesabim",
+    "value": "div[class='item myAccount']>span[class=\"imgText\"]",
+    "type": "css"
+  }
+,
+  {
+    "key": "T_Cikis_yap",
+    "value": "a[href=\"/account/logout\"]",
+    "type": "css"
+  }
+,
+  {
+    "key": "T_LogOut_AnaSayfa_Kucuk_Ev_Aletleri",
+    "value": "nav>a[data-id='190']",
+    "type": "css"
+  }
+,
+  {
+    "key": "T_LogOut_AnaSayfa_Kucuk_Ev_Aletleri_Kontrol",
+    "value": "span[class='item menu']",
+    "type": "css"
+  }
+,
+  {
+    "key": "T_LogOut_Kucuk_Ev_Aletleri_Gida_Hazirlama_Sonraki",
+    "value": "/html/body/main/section[2]/div[3]/div[2]/div/div[4]/img",
+    "type": "xpath"
+  }
+,
+  {
+    "key": "T_LogOut_Gida_Hazirlama_Urun_Katalog",
+    "value": "img[alt=\"Mutfak Şefi\"]",
+    "type": "css"
+  }
+,
+  {
+    "key": "T_LogOut_AnaSayfa_Kucuk_Ev_Aletleri_Gida_Hazirlama_UrunKatalog_Urun",
+    "value": "/html/body/main/section[2]/div[3]/div[3]/div[2]/div[2]/div/a[2]/div[2]/span[1]/span",
+    "type": "xpath"
+  }
+,
+  {
+    "key": "T_LogOut_AnaSayfa_Kucuk_Ev_Aletleri_Gida_Hazirlama_UrunKatalog_Urun_Favorilere_Ekle",
+    "value": "a[id='addFavorite']>i[id='krc-favorite']",
+    "type": "css"
+  }
+,
+  {
+    "key": "T_LogOut_AnaSayfa_Ev_Tekstili",
+    "value": "nav>a[data-id=\"191\"]",
+    "type": "css"
+  }
+,
+  {
+    "key": "T_LogOut_AnaSayfa_Ev_Tekstili_Kontrol",
+    "value": "span[class='item menu']",
+    "type": "css"
+  }
+,
+  {
+    "key": "T_LogOut_AnaSayfa_Ev_Tekstili_Yatak_Odası_Menusu_Sonraki",
+    "value": "body > main > section.category-landing-wrap > div:nth-child(1) > div.categoryProducts > div > div.swiper-button-next > img",
+    "type": "css"
+  }
+,
+  {
+    "key": "T_LogOut_AnaSayfa_Ev_Tekstili_Yatak_Odası_Menusu_Önceki",
+    "value": "body > main > section.category-landing-wrap > div:nth-child(1) > div.categoryProducts > div > div.swiper-button-prev > img",
+    "type": "css"
+  }
+,
+  {
+    "key": "T_LogOut_Bebek_Battaniyeleri_Urun_Katalog",
+    "value": "img[alt=\"Bebek Battaniyeleri\"]",
+    "type": "css"
+  }
+,
+  {
+    "key": "T_LogOut_Bebek_Battaniyeleri_Urun_Katalog_Kontrol",
+    "value": "span[class=\"item last_child\"]",
+    "type": "css"
+  }
+,
+  {
+    "key": "T_LogOut_Bebek_Battaniyeleri_Urun_Katalog_Battaniye_Filtreleme",
+    "value": "label[for='cbx-filter-battaniye-0-52']>span",
+    "type": "css"
+  }
+,
+  {
+    "key": "T_LogOut_Bebek_Battaniyeleri_Urun_Katalog_Fiyat_Filtreleme",
+    "value": "label[for='cbx-filter-500-1000-0-prices']>span",
+    "type": "css"
+  }
+,
+  {
+    "key": "T_LogOut_Bebek_Battaniyeleri_Urun_Katalog_Fiyat_Filtre_temizleme",
+    "value": "/html/body/main/section[2]/div[3]/div[3]/div[1]/ul/div/div[2]/div[1]/i",
+    "type": "xpath"
+  }
+,
+  {
+    "key": "T_LogOut_AnaSayfa_Hali",
+    "value": "nav>a[data-id=\"734\"]",
+    "type": "css"
+  }
+,
+  {
+    "key": "T_LogOut_AnaSayfa_Hali_Urun_Katalog_Kontrol",
+    "value": "span[class=\"item menu\"]",
+    "type": "css"
+  }
+,
+  {
+    "key": "T_LogOut_AnaSayfa_Hali_Urun_Katalog_Hizli_Teslimat_Urunleri",
+    "value": "div[class=\"checkboxWrap checkbox\"]",
+    "type": "css"
+  }
+,
+  {
+    "key": "T_LogOut_Hali_Urun_Katalog_Hizli_Teslimat_Urunleri_Konum_Sec",
+    "value": "//*[@id=\"fastLocation\"]/div/div/div[2]/div/div[2]/div[1]/select",
+    "type": "xpath"
+  }
+,
+  {
+    "key": "T_LogOut_Hali_Urun_Katalog_Hizli_Teslimat_Urunleri_il_Sec",
+    "value": "//*[@id=\"fastLocation\"]/div/div/div[2]/div/div[2]/div[1]/select/option",
+    "type": "xpath"
+  }
+,
+  {
+    "key": "T_LogOut_Hali_Urun_Katalog_Hizli_Teslimat_Urunleri_Konum_Ilce_Sec",
+    "value": "//*[@id=\"fastLocation\"]/div/div/div[2]/div/div[2]/div[2]/select",
+    "type": "xpath"
+  }
+,
+  {
+    "key": "T_LogOut_Hali_Urun_Katalog_Hizli_Teslimat_Urunleri_Ilce_Sec",
+    "value": "//*[@id=\"fastLocation\"]/div/div/div[2]/div/div[2]/div[2]/select/option",
+    "type": "xpath"
+  }
+,
+  {
+    "key": "T_LogOut_Hali_Urun_Katalog_Hizli_Teslimat_Urunleri_Konum_Secimi_Kaydet",
+    "value": "button[class=\"krc-btn krc-btn-full\"]",
+    "type": "css"
+  }
+,
+  {
+    "key": "T_LogOut_Gida",
+    "value": "li>a[data-id=\"1138\"]",
+    "type": "css"
+  }
+,
+  {
+    "key": "T_LogOut_CokSatanlar",
+    "value": "nav>a[data-id=\"194\"]",
+    "type": "css"
+  }
+]

@@ -1,0 +1,139 @@
+# T_anasayfa hesabim elementi uzerinde beklenir.
+* "P_AnaEkran_HesapAdi" elementin üstünde bekle
+* "2" saniye bekle
+* "P_AnaSayfa_HesabimMenuElements_HesapAdi" elementini kontrol et
+* Sayfa uzerinde "P_AnaSayfa_HesabimMenuElements_HesapAdi" objesi goruntulenene kadar bekle
+* "P_AnaSayfa_HesabimMenuElements_HesapAdi" elementi "Test Hesap" değerini içeriyor mu kontrol et
+
+# T_urun_detay 16460712 siparis nolu urunun sayfasina gidilir.
+* "https://yeni.krc.com.tr/account/order/info/16460712" adresine git
+* "P_SiparisDetay_SiparisNo" elementini kontrol et
+* Check if element "P_SiparisDetay_SiparisNo" contains text "16460712"
+
+# T_urun_detay Urunumu servise gondermek istiyorum linkine tiklanir.
+* Sayfa uzerinde "P_SiparisDetay_UrunumuServiseGonderLinki" objesi goruntulenene kadar bekle
+* "P_SiparisDetay_UrunumuServiseGonderLinki" elementini kontrol et
+* "P_SiparisDetay_UrunumuServiseGonderLinki" elementine tikla
+
+# T_urun_inceleme_talep_sayfasi Gorsel Ekle butonuna tiklanir.
+* Sayfa uzerinde "P_UrunIncelemeTalep_GorselEkleButton" objesi goruntulenene kadar bekle
+* "P_UrunIncelemeTalep_GorselEkleButton" elementini kontrol et
+* "P_UrunIncelemeTalep_GorselEkleButton" elementine tikla
+
+# T_urun_inceleme_talep_sayfasi Talep Olustur butonunun pasif oldugu kontrol edilir.
+* Sayfa uzerinde "P_UrunIncelemeTalep_TalepOlusturButton_Disable" objesi goruntulenene kadar bekle
+* "P_UrunIncelemeTalep_TalepOlusturButton_Disable" elementini kontrol et
+
+# T_urun_inceleme_talep_sayfasi Talep Olustur butonunun aktif oldugu kontrol edilir.
+* Sayfa uzerinde "P_UrunIncelemeTalep_TalepOlusturButton_Enable" objesi goruntulenene kadar bekle
+* "P_UrunIncelemeTalep_TalepOlusturButton_Enable" elementini kontrol et
+
+# T_urun_inceleme_talep_sayfasi <expectedText> textini icerdigi kontrol edilir.
+* "P_UrunIncelemeTalep_GorselYesilYazi" elementini kontrol et
+* "P_UrunIncelemeTalep_GorselYesilYazi" elementi <expectedText> değerini içeriyor mu kontrol et
+
+# T_urun_inceleme_talep_sayfasi <writenText> yazisi urun inceleme nedeni kismina yazilir.
+* Sayfa uzerinde "P_UrunIncelemeTalep_UrunIncelemeNedeniTextarea" objesi goruntulenene kadar bekle
+* "P_UrunIncelemeTalep_UrunIncelemeNedeniTextarea" elementini kontrol et
+* <writenText> textini "P_UrunIncelemeTalep_UrunIncelemeNedeniTextarea" elemente yaz
+
+# T_urun_inceleme_talep_sayfasi Urun tamiri tamamlandiktan sonra gonderilecek adres dropdownindan secim yapilir.
+* Sayfa uzerinde "P_UrunIncelemeTalep_AdresSecimDropdown" objesi goruntulenene kadar bekle
+* "P_UrunIncelemeTalep_AdresSecimDropdown" elementini kontrol et
+* "P_UrunIncelemeTalep_AdresSecimDropdown" elementine tikla
+* "P_UrunIncelemeTalep_AdresSecimDropdown_Options" li elementlerden "6". olana tikla ve stringini listeye kaydet
+* "P_UrunIncelemeTalep_AdresSecimDropdown" elementine tikla
+* "P_UrunIncelemeTalep_AdresSecimDropdown" elementi "Test17 - TEST11 - TESTTESTTESTSFSDF" değerini içeriyor mu kontrol et
+
+# T_urun_inceleme_talep_sayfasi yeni eklenen <sonEklenen> adresinin dropdowna eklendigi kontrol edilir.
+* "P_UrunIncelemeTalep_AdresSecimDropdown" elementine tikla
+* Sayfa uzerinde "P_UrunIncelemeTalep_AdresSecimDropdown_SonEklenenEleman" objesi goruntulenene kadar bekle
+* Check if element "P_UrunIncelemeTalep_AdresSecimDropdown_SonEklenenEleman" contains text <sonEklenen>
+
+# T_urun_inceleme_talep_sayfasi Yeni Adres Ekle linkine tiklanir.
+* Sayfa uzerinde "P_UrunIncelemeTalep_YeniAdresEkleButton" objesi goruntulenene kadar bekle
+* "P_UrunIncelemeTalep_YeniAdresEkleButton" elementini kontrol et
+* "1" saniye bekle
+* "P_UrunIncelemeTalep_YeniAdresEkleButton" elementine tikla
+
+# T_urun_inceleme_talep_sayfasi <popupName> pop-upinin acildigi kontrol edilir.
+* Sayfa uzerinde "P_UrunIncelemeTalep_YeniAdresEklePopup_Header" objesi goruntulenene kadar bekle
+* "P_UrunIncelemeTalep_YeniAdresEklePopup_Header" elementini kontrol et
+
+# T_Yeni Adres Ekle pop-upinda ad alanina <textContent> girilir.
+* Sayfa uzerinde "P_UrunIncelemeTalep_YeniAdresEklePopup_FirstnameTextBox" objesi goruntulenene kadar bekle
+* "P_UrunIncelemeTalep_YeniAdresEklePopup_FirstnameTextBox" elementini kontrol et
+* "P_UrunIncelemeTalep_YeniAdresEklePopup_FirstnameTextBox" elementine tikla
+* <textContent> textini "P_UrunIncelemeTalep_YeniAdresEklePopup_FirstnameTextBox" elemente yaz
+
+# T_Yeni Adres Ekle pop-upinda soyad alanina <textContent> girilir.
+* Sayfa uzerinde "P_UrunIncelemeTalep_YeniAdresEklePopup_LastnameTextBox" objesi goruntulenene kadar bekle
+* "P_UrunIncelemeTalep_YeniAdresEklePopup_LastnameTextBox" elementini kontrol et
+* "P_UrunIncelemeTalep_YeniAdresEklePopup_LastnameTextBox" elementine tikla
+* <textContent> textini "P_UrunIncelemeTalep_YeniAdresEklePopup_LastnameTextBox" elemente yaz
+
+# T_Yeni Adres Ekle pop-upinda telefon alanina <textContent2> girilir.
+* Sayfa uzerinde "P_UrunIncelemeTalep_YeniAdresEklePopup_TelephoneTextBox" objesi goruntulenene kadar bekle
+* "P_UrunIncelemeTalep_YeniAdresEklePopup_TelephoneTextBox" elementini kontrol et
+* "P_UrunIncelemeTalep_YeniAdresEklePopup_TelephoneTextBox" elementine tikla
+* <textContent2> textini "P_UrunIncelemeTalep_YeniAdresEklePopup_TelephoneTextBox" elemente yaz
+
+# T_Yeni Adres Ekle pop-upinda adres alanina <textContent2> girilir.
+* Sayfa uzerinde "P_UrunIncelemeTalep_YeniAdresEklePopup_AdressTextBox" objesi goruntulenene kadar bekle
+* "P_UrunIncelemeTalep_YeniAdresEklePopup_AdressTextBox" elementini kontrol et
+* "P_UrunIncelemeTalep_YeniAdresEklePopup_AdressTextBox" elementine tikla
+* <textContent2> textini "P_UrunIncelemeTalep_YeniAdresEklePopup_AdressTextBox" elemente yaz
+
+# T_Yeni Adres Ekle pop-upinda posta kodu alanina <textContent2> girilir.
+* Sayfa uzerinde "P_UrunIncelemeTalep_YeniAdresEklePopup_PostCodeTextBox" objesi goruntulenene kadar bekle
+* "P_UrunIncelemeTalep_YeniAdresEklePopup_PostCodeTextBox" elementini kontrol et
+* "P_UrunIncelemeTalep_YeniAdresEklePopup_PostCodeTextBox" elementine tikla
+* <textContent2> textini "P_UrunIncelemeTalep_YeniAdresEklePopup_PostCodeTextBox" elemente yaz
+
+# T_Yeni Adres Ekle pop-upinda adres basligi alanina <textContent2> girilir.
+* Sayfa uzerinde "P_UrunIncelemeTalep_YeniAdresEklePopup_AdressTitleTextBox" objesi goruntulenene kadar bekle
+* "P_UrunIncelemeTalep_YeniAdresEklePopup_AdressTitleTextBox" elementini kontrol et
+* "P_UrunIncelemeTalep_YeniAdresEklePopup_AdressTitleTextBox" elementine tikla
+* <textContent2> textini "P_UrunIncelemeTalep_YeniAdresEklePopup_AdressTitleTextBox" elemente yaz
+
+//alttakiler düzenleme
+# T_Yeni Adres Ekle pop-upinda sehir dropdowninda <sira>. sehir secilir.
+* Sayfa uzerinde "P_UrunIncelemeTalep_YeniAdresEklePopup_SehirDropdown" objesi goruntulenene kadar bekle
+* "P_UrunIncelemeTalep_YeniAdresEklePopup_SehirDropdown" elementini kontrol et
+* "P_UrunIncelemeTalep_YeniAdresEklePopup_SehirDropdown" elementine tikla
+* "P_UrunIncelemeTalep_YeniAdresEklePopup_Sehirler" li elementlerden <sira>. olana tikla ve stringini listeye kaydet
+
+# T_Yeni Adres Ekle pop-upinda ilce dropdowninda <sira>. ilce secilir.
+* Sayfa uzerinde "P_UrunIncelemeTalep_YeniAdresEklePopup_IlceDropdown" objesi goruntulenene kadar bekle
+* "P_UrunIncelemeTalep_YeniAdresEklePopup_IlceDropdown" elementini kontrol et
+* "P_UrunIncelemeTalep_YeniAdresEklePopup_IlceDropdown" elementine tikla
+* "P_UrunIncelemeTalep_YeniAdresEklePopup_Ilceler" li elementlerden <sira>. olana tikla ve stringini listeye kaydet
+
+# T_Yeni Adres Ekle pop-upinda mahalle dropdowninda <sira>. mahalle secilir.
+* Sayfa uzerinde "P_UrunIncelemeTalep_YeniAdresEklePopup_MahalleDropdown" objesi goruntulenene kadar bekle
+* "P_UrunIncelemeTalep_YeniAdresEklePopup_MahalleDropdown" elementini kontrol et
+* "P_UrunIncelemeTalep_YeniAdresEklePopup_MahalleDropdown" elementine tikla
+* "P_UrunIncelemeTalep_YeniAdresEklePopup_Mahalleler" li elementlerden <sira>. olana tikla ve stringini listeye kaydet
+
+//
+//# T Yeni Adres Ekle pop-upinda ilce dropdowninda ilce secilir.
+//* Sayfa uzerinde "P_UrunIncelemeTalep_YeniAdresEklePopup_LastnameTextBox" objesi goruntulenene kadar bekle
+//* "P_UrunIncelemeTalep_YeniAdresEklePopup_LastnameTextBox" elementini kontrol et
+//* "P_UrunIncelemeTalep_YeniAdresEklePopup_LastnameTextBox" elementine tikla
+//* <textContent2> textini "P_UrunIncelemeTalep_YeniAdresEklePopup_LastnameTextBox" elemente yaz
+//
+//# T Yeni Adres Ekle pop-upinda mahalle dropdowninda mahalle secilir.
+//* Sayfa uzerinde "P_UrunIncelemeTalep_YeniAdresEklePopup_LastnameTextBox" objesi goruntulenene kadar bekle
+//* "P_UrunIncelemeTalep_YeniAdresEklePopup_LastnameTextBox" elementini kontrol et
+//* "P_UrunIncelemeTalep_YeniAdresEklePopup_LastnameTextBox" elementine tikla
+//* <textContent2> textini "P_UrunIncelemeTalep_YeniAdresEklePopup_LastnameTextBox" elemente yaz
+
+# T_Yeni Adres Ekle pop-upinda Kaydet butonuna tiklanir.
+* "P_UrunIncelemeTalep_YeniAdresEklePopup_KaydetButton" elementini kontrol et
+* Sayfa uzerinde "P_UrunIncelemeTalep_YeniAdresEklePopup_KaydetButton" objesi goruntulenene kadar bekle
+* "P_UrunIncelemeTalep_YeniAdresEklePopup_KaydetButton" elementine tikla
+
+# T_Yeni Adres Ekle pop-upi kapatilir.
+* Sayfa uzerinde "P_UrunIncelemeTalep_YeniAdresEklePopup_CloseButton" objesi goruntulenene kadar bekle
+* "P_UrunIncelemeTalep_YeniAdresEklePopup_CloseButton" elementini kontrol et
+* "P_UrunIncelemeTalep_YeniAdresEklePopup_CloseButton" elementine tikla

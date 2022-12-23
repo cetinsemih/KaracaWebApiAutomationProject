@@ -1,0 +1,19 @@
+[
+  {
+    "key": "P_KategoriEkrani_KategoriBaslik",
+    "value": "span[class=\"item menu\"]",
+    "type": "css"
+  }
+,
+  {
+    "key": "P_KategoriEkrani_Sofra_YemekTakimi",
+    "value": "div>a[href=\"https://www.karaca.com/yemek-takimlari\"]>h2",
+    "type": "css"
+  }
+,
+  {
+    "key": "P_KategoriEkrani_Mutfak_Pisirme",
+    "value": "div>a[href=\"https://www.karaca.com/pisirme\"]>h2",
+    "type": "css"
+  }
+]

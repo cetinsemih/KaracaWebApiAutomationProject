@@ -1,0 +1,11 @@
+# P_Kategori Ekrani_Baslik alani <baslik> degerini icerdigi kontrol edilir.
+* "600" milisaniye bekle
+* "P_KategoriEkrani_KategoriBaslik" elementi <baslik> değerini içeriyor mu kontrol et
+
+# P_Kategori Ekrani - Sofra basligi altinda Yemek Takimlari basligina tiklanir.
+*"P_KategoriEkrani_Sofra_YemekTakimi" elementini kontrol et
+*"P_KategoriEkrani_Sofra_YemekTakimi" elementine tikla
+
+# P_Kategori Ekrani - Mutfak basligi altinda Pisirme basligina tiklanir.
+* "P_KategoriEkrani_Mutfak_Pisirme" elementini kontrol et
+* "P_KategoriEkrani_Mutfak_Pisirme" elementine tikla

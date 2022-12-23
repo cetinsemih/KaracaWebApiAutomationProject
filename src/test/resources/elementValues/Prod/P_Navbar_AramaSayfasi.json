@@ -1,0 +1,17 @@
+[
+  {
+    "key": "P_Navbar_AramaSayfasi_PopUp_CloseButton",
+    "value": "div[id='close-button-1454703513202']>span[data-bind-menu=\"notification|text_editing\"]",
+    "type": "css"
+  },
+  {
+    "key": "P_Navbar_AramaSayfasi_IlkUrun_FavButonu",
+    "value": "div[data-productid=\"6268252\"]>div[class='productWrap']>a[class=\"addFavoriteC productFavIcon\"]",
+    "type": "css"
+  },
+  {
+    "key": "P_Navbar_AramaSayfasi_IkinciUrun_FavButonu",
+    "value": "div[data-productid=\"6733662\"]>div[class=\"productWrap\"]>a[class=\"addFavoriteC productFavIcon\"]",
+    "type": "css"
+  }
+]

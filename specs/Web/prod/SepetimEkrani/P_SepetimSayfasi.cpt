@@ -1,0 +1,37 @@
+# P_Sepetim Sayfası urun adedinin <adet> oldugu gorulur.
+* "P_SepetimSayfasi_UrunAdedi" elementini kontrol et
+* "P_SepetimSayfasi_UrunAdedi" elementi <adet> değerini içeriyor mu kontrol et
+
+# P_Sepetim Sayfası urun adedi 1 arttirilir.
+* "P_SepetimSayfasi_UrunAdetiArttir" elementini kontrol et
+* "P_SepetimSayfasi_UrunAdetiArttir" elementine tikla
+
+# P_Sepetim Sayfası urun adedi 1 azaltilir.
+* "P_SepetimSayfasi_UrunAdetiAzalt" elementini kontrol et
+* "P_SepetimSayfasi_UrunAdetiAzalt" elementine tikla
+
+# P_Sepetim Sayfası urunu sepetten kaldır.
+* "P_SepetimSayfasi_UrunuSepettenKaldir" elementini kontrol et
+* "P_SepetimSayfasi_UrunuSepettenKaldir" elementine tikla
+
+# P_Sepetim Sayfası Sepetin boş olduğu kontrol edilir.
+* "P_SepetimSayfasi_SepetBosYazi" elementini kontrol et
+* "P_SepetimSayfasi_SepetBosYazi" elementi "Sepetiniz Şimdilik Boş" değerini içeriyor mu kontrol et
+
+# P_Sepetim Sayfası_Sepeti Bosalt PopUp_Sepeti Bosalt butonuna tıklanır.
+* "P_Sepetim Sayfasi_Sepeti Bosalt PopUp_Sepeti Bosalt butonu" elementi varsa tikla
+
+# P_Sepetim Sayfası_Sepeti Bosalt PopUp_Vazgec butonuna tıklanır.
+* "P_Sepetim Sayfasi_Sepeti Bosalt PopUp_vazgec butonu" elementi varsa tikla
+
+# P_Sepetim Sayfasi_Sil butonu ile urun sepetten kaldirilir.
+* "P_Sepetim Sayfasi_Urun datay alani - Sil butonu" elementini kontrol et
+* "P_Sepetim Sayfasi_Urun datay alani - Sil butonu" elementine tikla
+
+# P_Sepetim Sayfasi_Sepeti Bosalt butonu ile sepeti bosalt.
+* "P_Sepetim Sayfasi_Sepeti bosalt butonu" elementini kontrol et
+* "P_Sepetim Sayfasi_Sepeti bosalt butonu" elementine tikla
+
+# P_Sepetim Sayfasi_Devam Et butonuna tiklanir.
+* "P_Sepetim Sayfasi_Devam et butonu" elementini kontrol et
+* "P_Sepetim Sayfasi_Devam et butonu" elementine tikla

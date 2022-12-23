@@ -1,0 +1,174 @@
+# T_Login Ekrani'nin Açıldiği kontrol edilir.
+* "P_LoginEkrani_GirisButonu_WithOutCaptcha" elementini kontrol et
+
+# T_Login Ekrani'nin Açıldiği kontrol edilir(WithOutCapcha).
+* "P_LoginEkrani_GirisButonu_WithOutCaptcha" elementini kontrol et
+
+# T_Login Ekrani_E-Posta alanina <Eposta> degeri girilir.
+* "P_LoginEkrani_EPostaAlani" elementini kontrol et
+* <Eposta> textini "P_LoginEkrani_EPostaAlani" elemente yaz
+
+# T_Login Ekrani_Sifre alanina <sifre> degeri girilir.
+* "P_LoginEkrani_SifreAlani" elementini kontrol et
+* <sifre> textini "P_LoginEkrani_SifreAlani" elemente yaz
+
+# T_Login Ekrani_Giris Yap Butonuna Tiklanir.
+* "P_LoginEkrani_GirisButonu" elementini kontrol et
+* "P_LoginEkrani_GirisButonu" elementine tikla
+
+# T_Login Ekrani_Giris Yap Butonuna Tiklanir(WithOutCaptcha).
+* "P_LoginEkrani_GirisButonu_WithOutCaptcha" elementini kontrol et
+* "P_LoginEkrani_GirisButonu_WithOutCaptcha" elementine tikla
+
+
+
+# T_Login Ekrani_Uye Olmadan Devam Et butonuna tiklanir.
+* "P_LoginEkrani_UyeOlmadanDevamEtButonu" elementini kontrol et
+* "P_LoginEkrani_UyeOlmadanDevamEtButonu" elementine tikla
+
+# T_Login Ekrani_Ziyaretci E-Posta anani kontrol edilir.
+* "P_LoginEkrani_ZiyaretciEpostaAlani" elementini kontrol et
+
+# T_Login Ekrani_Ziyaretci E-Posta ananina <Eposta> adresi girilir.
+* "P_LoginEkrani_ZiyaretciEpostaAlani" elementini kontrol et
+* <Eposta> textini "P_LoginEkrani_ZiyaretciEpostaAlani" elemente yaz
+
+# T_Login Ekrani_Ziyaretci Kvkk CheckBox Isaretlenir.
+* "T_LoginEkrani_ZiyaretciKvkkCheckbox" elementini kontrol et
+* "T_LoginEkrani_ZiyaretciKvkkCheckbox" elementine tikla
+
+# T_Login Ekrani_Ziyaretci Devam Et butonuna tiklanir.
+* "T_LoginEkrani_ZiyaretciDevamEtButonu" elementini kontrol et
+* "T_LoginEkrani_ZiyaretciDevamEtButonu" elementine tikla
+
+# T_Login Ekrani_Ziyaretci Eposta kayitli Uye Girisi Butonuna tikla
+* "P_LoginEkrani_ZiyaretciEpostaKayitli_UyeGirisi" elementini kontrol et
+* "P_LoginEkrani_ZiyaretciEpostaKayitli_UyeGirisi" elementine tikla
+
+# T_Login Ekrani_Ziyaretci Eposta kayitli Uye Olmadan Devam Et Butonuna tikla
+* "P_LoginEkrani_ZiyaretciEpostaKayitli_UyeOlmadanDevamEt" elementini kontrol et
+* "P_LoginEkrani_ZiyaretciEpostaKayitli_UyeOlmadanDevamEt" elementine tikla
+
+# T_LoginEkrani_Giris Yap Butonuna tiklanir.
+* "T_LoginEkrani_GirisYapButonu2" elementini kontrol et
+* Click to element "T_LoginEkrani_GirisYapButonu2"
+
+
+//Ulaş
+#T_anasayfaya gidilir.
+* "https://yeni.krc.com.tr/" adresine git
+* Şuanki URL "https://yeni.krc.com.tr/" değerini içeriyor mu kontrol et
+#T_Hesabim_butonuna_tiklanir.
+* "T_AnaEkran_HesabimButonu" elementini kontrol et
+* Click to element "T_AnaEkran_HesabimButonu"
+#T_E-Posta_girilir.
+* "T_LoginEkrani_EpostaAlani" elementini kontrol et
+* Click to element "T_LoginEkrani_EpostaAlani"
+* "test@test.com" textini "T_LoginEkrani_EpostaAlani" elemente yaz
+#Cark pop-upı kapatilir.
+* "T_CarkPopUp_CloseButton" elementini kontrol et
+* Click to element "T_CarkPopUp_CloseButton"
+#T_Sifre_girilir <sifre>
+* "T_LoginEkrani_SifreAlani" elementini kontrol et
+* Click to element "T_LoginEkrani_SifreAlani"
+* <sifre> textini "T_LoginEkrani_SifreAlani" elemente yaz
+#T_<buttonName> butonuna_tiklanir.
+* "T_LoginEkrani_GirisYapButonu" elementini kontrol et
+* Click to element "T_LoginEkrani_GirisYapButonu"
+#T_Login_oldugu_kontrol_edilir.
+* "T_AnaEkranHesapAdi" elementini kontrol et
+* Check if element "T_AnaEkranHesapAdi" contains text "Test"
+#T_E-posta_alani_bos_birakilir.
+* "T_LoginEkrani_EpostaAlani" elementini kontrol et
+* Click to element "T_LoginEkrani_EpostaAlani"
+* "" textini "T_LoginEkrani_EpostaAlani" elemente yaz
+#T_Sifre_alani_bos_birakilir.
+* "T_LoginEkrani_SifreAlani" elementini kontrol et
+* Click to element "T_LoginEkrani_SifreAlani"
+* "" textini "T_LoginEkrani_SifreAlani" elemente yaz
+#T_Login_olmadigi_kontrol_edilir_ve_Kullanıcı_adı_ve_şifrenizi_tam_olarak_giriniz._uyari_mesajinin_goruldugu_kontrol_edilir.
+* "T_AnaEkranHesapAdi" elementini kontrol et
+* Check if element "T_AnaEkranHesapAdi" contains text "Hesabım"
+* "T_LoginEkrani_UyariMesaji" elementini kontrol et
+* Check if element "T_LoginEkrani_UyariMesaji" contains text "Kullanıcı adı ve şifrenizi tam olarak giriniz."
+#Test ortaminda Formati bozuk E-Posta girilir.
+* "T_LoginEkrani_EpostaAlani" elementini kontrol et
+* Click to element "T_LoginEkrani_EpostaAlani"
+* "asd3qe" textini "T_LoginEkrani_EpostaAlani" elemente yaz
+#Test ortaminda Login olmadigi kontrol edilir ve _Uyarı: Uyarı: Parolanızı hatalı eksik veya yanlış girdiniz._ uyari mesajinin goruldugu kontrol edilir.
+* "T_AnaEkranHesapAdi" elementini kontrol et
+* Check if element "T_AnaEkranHesapAdi" contains text "Hesabım"
+* "T_LoginEkrani_UyariMesaji" elementini kontrol et
+* Check if element "T_LoginEkrani_UyariMesaji" contains text "Uyarı: Parolanızı hatalı eksik veya yanlış girdiniz."
+#T_Kayitli_olmayan_e-posta_girilir.
+* "T_LoginEkrani_EpostaAlani" elementini kontrol et
+* Click to element "T_LoginEkrani_EpostaAlani"
+* "random@test.com" textini "T_LoginEkrani_EpostaAlani" elemente yaz
+#T_Login_olmadigi_kontrol_edilir_ve_Uyarı: E-Posta Adresi İle Üyelik Bulunamamaktadır._ uyari mesajinin goruldugunun kontrolu yapilir.
+* "T_AnaEkranHesapAdi" elementini kontrol et
+* Check if element "T_AnaEkranHesapAdi" contains text "Hesabım"
+* "T_LoginEkrani_UyariMesaji" elementini kontrol et
+* Check if element "T_LoginEkrani_UyariMesaji" contains text "Uyarı: E-Posta Adresi İle Üyelik Bulunamamaktadır."
+#Test ortaminda Geçersiz şifre girilir.
+* "T_LoginEkrani_SifreAlani" elementini kontrol et
+* Click to element "T_LoginEkrani_SifreAlani"
+* "1212" textini "T_LoginEkrani_SifreAlani" elemente yaz
+#Test ortaminda Login olmadigi kontrol edilir ve _Uyarı: Parolanızı hatalı eksik veya yanlış girdiniz._ uyari mesajinin goruldugu kontrol edilir.
+* "T_AnaEkranHesapAdi" elementini kontrol et
+* Check if element "T_AnaEkranHesapAdi" contains text "Hesabım"
+* "T_LoginEkrani_UyariMesaji" elementini kontrol et
+* Check if element "T_LoginEkrani_UyariMesaji" contains text "Uyarı: Parolanızı hatalı eksik veya yanlış girdiniz."
+#T_uye_olma_butonuna_tiklanir
+*"T_UyeOlmaButonu" elementini kontrol et
+*"T_UyeOlmaButonu" elementine tikla
+
+
+//Batuhan
+# T_Login Ekrani_E-Posta alanina <Eposta> girilir.
+* "T_LoginEkrani_EpostaAlani" elementini kontrol et
+* Click to element "T_LoginEkrani_EpostaAlani"
+* <Eposta> textini "T_LoginEkrani_EpostaAlani" elemente yaz
+
+# T_Login Ekrani_Sifre alanina <Sifre> girilir.
+* "T_LoginEkrani_SifreAlani" elementini kontrol et
+* Click to element "T_LoginEkrani_SifreAlani"
+* <Sifre> textini "T_LoginEkrani_SifreAlani" elemente yaz
+
+
+//Hüseyin
+# T_login olunur.
+* T_Karaca test anasayfasina gidilir.
+* T_Test ortaminda Hesabim butonuna tiklanir.
+* T_Test ortaminda Gecerli E-Posta girilir.
+//  * T_Test ortaminda Cark pop-upı kapatilir.
+* T_Test ortaminda Gecerli sifre girilir.
+* T_Test ortaminda 'Giris Yap' butonuna tiklanir.
+* T_Test ortaminda Login oldugu kontrol edilir.
+
+# T_Karaca test anasayfasina gidilir.
+* "https://yeni.krc.com.tr/" adresine git
+* Şuanki URL "https://yeni.krc.com.tr/" değerini içeriyor mu kontrol et
+# T_Test ortaminda Hesabim butonuna tiklanir.
+* "T_AnaEkran_HesabimButonu" elementini kontrol et
+* Click to element "T_AnaEkran_HesabimButonu"
+# T_Test ortaminda Gecerli E-Posta girilir.
+* "T_LoginEkrani_EpostaAlani" elementini kontrol et
+* Click to element "T_LoginEkrani_EpostaAlani"
+* "test@test.com" textini "T_LoginEkrani_EpostaAlani" elemente yaz
+# T_Test ortaminda Cark pop-upı kapatilir.
+* "T_CarkPopUp_CloseButton" elementini kontrol et
+* Click to element "T_CarkPopUp_CloseButton"
+# T_Test ortaminda Gecerli sifre girilir.
+* "T_LoginEkrani_SifreAlani" elementini kontrol et
+* Click to element "T_LoginEkrani_SifreAlani"
+* "12123" textini "T_LoginEkrani_SifreAlani" elemente yaz
+# T_Test ortaminda 'Giris Yap' butonuna tiklanir.
+* "T_LoginEkrani_GirisYapButonu" elementini kontrol et
+* Click to element "T_LoginEkrani_GirisYapButonu"
+# T_Test ortaminda Login oldugu kontrol edilir.
+* "3" saniye bekle
+* "T_AnaEkran_HesapAdi" elementini kontrol et
+* Check if element "T_AnaEkran_HesapAdi" contains text "Test"
+
+
+

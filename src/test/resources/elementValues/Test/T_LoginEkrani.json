@@ -1,0 +1,41 @@
+[
+  {
+    "key": "T_LoginEkrani_EpostaAlani",
+    "value": "inputEmailLogin",
+    "type": "id"
+  }
+,
+  {
+    "key": "T_LoginEkrani_SifreAlani",
+    "value": "//input[@name=\"password\" and @tabindex=\"2\"]",
+    "type": "xpath"
+  }
+,
+  {
+    "key": "T_LoginEkrani_GirisYapButonu",
+    "value": "button[id='login-without-recaptcha']",
+    "type": "css"
+  }
+,
+  {
+    "key": "T_LoginEkrani_CookieButton",
+    "value": "div[class='cookiealert Fixed']>a[class='acceptcookies']",
+    "type": "css"
+  }
+,
+  {
+    "key": "T_LoginEkrani_UyariMesaji",
+    "value": "div[class=\"alert alert-danger\"]",
+    "type": "css"
+  }
+,
+  {"key": "T_UyeOlmaButonu",
+    "value": "button[id='reg-submit-without-recaptch']",
+    "type": "css"
+  }
+,
+  {"key": "T_AnaEkranHesapAdi",
+    "value": "div[id='account_header']>div[class='item myAccount']>span",
+    "type": "css"
+  }
+]
